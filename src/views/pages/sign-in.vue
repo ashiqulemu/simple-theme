@@ -8,8 +8,19 @@
                 Welcome To MicroDreamIT, Please Login With Your Personal Account Information.
             </div>
             <div class="card">
-                <div>email</div>
-                <div>pass</div>
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Username or Email" aria-label="Username or Email">
+                </div>
+
+                <div class="input-group flex-nowrap">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Password">
+                </div>
                 <div class="remember-box">
                     <div>remeber</div>
                     <div>forgot</div>
