@@ -1,0 +1,56 @@
+.review-header{
+  width: 100%;
+  background-color: #F7F7F7;
+  height: 80px;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+}
+
+.review-title-p{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 15px;
+  color: #444444;
+}
+
+.main-container{
+  width: 60%;
+  margin: auto;
+}
+
+.review-title{
+  float: left;
+}
+
+.review-sub-title{
+  float: right;
+  color: #999;
+  margin-top: 25px;
+}
+
+.url-for-review{
+  color: #999;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.review-sub-title a{
+  text-decoration: none;
+}
+
+.review-sub-title a:hover{
+   color: #999;
+}
+
+.slash{
+  color: #6c757d;
+}
+
+.review-block{
+  margin: 20px 0 20px 0;
+}
+
+.employee-image{
+  height: 60px;
+  border-radius: 100%;
+}
