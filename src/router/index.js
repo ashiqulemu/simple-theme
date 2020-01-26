@@ -20,6 +20,11 @@ const routes = [
         component: require('../views/pages/sign-up').default
     },
     {
+        path: '/review',
+        name: 'review',
+        component: require('../views/pages/review').default
+    },
+    {
         path: '/404',
         name: '404',
         component: require('../views/pages/404').default

@@ -1,5 +1,8 @@
 <template>
-    
+    <div>
+        i am review page
+
+    </div>
 </template>
 
 <script>
