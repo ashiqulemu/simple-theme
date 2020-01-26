@@ -5,6 +5,7 @@ import store from './store'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
+import './assets/sass/soumik.scss'
 
 // Theme partial scss
 
