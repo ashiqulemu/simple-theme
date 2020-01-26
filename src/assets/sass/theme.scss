@@ -1,10 +1,66 @@
-@import '../sass/color-variables';
+  @import '../sass/color-variables';
+  @import '../sass/mixins';
 
+
+  *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
 
 //================== header css goes here===================//
 
 .header {
   background: $primary;
+}
+.dropdown-user-define{
+  border: 0;
+  top: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+  min-width: 200px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.17);
+  .dropdown-item{
+    color:$text-color;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 7px 7px;
+    &:hover{
+      color:$nav-link;
+    }
+  }
+}
+.nav-user-define{
+   .navbar-nav{
+     .nav-item{
+       .nav-link{
+         color:white;
+         text-transform: uppercase;
+         font-size: 14px;
+         cursor: pointer;
+         transition: all 0.3s;
+         padding: 5px 10px;
+         margin: 2px;
+         &:hover{
+            background:$nav-hover;
+          }
+         &.active{
+           background:$nav-hover;
+           outline: 1px solid $outline;
+         }
+       }
+     }
+   }
+}
+
+.navbar-toggler{
+  &.user-defined{
+    background: $primary;
+    color:white;
+    outline: 0;
+  }
 }
 
 
@@ -17,6 +73,7 @@
   min-height: 100vh;
 }
 
+//================ close header css =======================//
 
 .auth-form {
   min-height: 100vh;

@@ -5,6 +5,10 @@
   $bg-primary:#fafafa;
   $bg-social1:#3b5998;
   $bg-social2:#d85040;
+  $nav-hover:#283a702e;
+  $outline:#1f5cdec4;
+  $text-color:#777777;
+  $nav-link:#c36300;
 
   //======================== Helper classes =====================
 
@@ -13,10 +17,4 @@
   }
   .bg-secondary{
     background: $secondary;
-  }
-  .bg-social-1{
-    background: $bg-social1;
-  }
-  .bg-social-2{
-    background: $bg-social2;
   }
