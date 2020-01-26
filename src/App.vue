@@ -7,8 +7,8 @@
 </template>
 
 <script>
-    import myHeader from "./components/partial/header";
-    import myFooter from "./components/partial/footer"
+    import myHeader from "./components/partial/myHeader";
+    import myFooter from "./components/partial/myFooter"
 
     export default {
         components: {
