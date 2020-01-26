@@ -1,10 +1,14 @@
 
-  //============= color variables=================================
-      $primary:#256cff;
-      $secondary:#da6500;
-      $nav-hover:#283a702e;
-      $outline:#1f5cdec4;
-      $text-color:#777777;
+  //============= colors =================================
+  $primary:#256cff;
+  $secondary:#283A70;
+  $bg-primary:#fafafa;
+  $bg-social1:#3b5998;
+  $bg-social2:#d85040;
+  $nav-hover:#283a702e;
+  $outline:#1f5cdec4;
+  $text-color:#777777;
+
   //======================== Helper classes =====================
 
   .bg-primary{
@@ -12,4 +16,10 @@
   }
   .bg-secondary{
     background: $secondary;
+  }
+  .bg-social-1{
+    background: $bg-social1;
+  }
+  .bg-social-2{
+    background: $bg-social2;
   }

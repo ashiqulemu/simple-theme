@@ -10,7 +10,7 @@
 
 //================== header css goes here===================//
 
-.header{
+.header {
   background: $primary;
 }
 .dropdown-user-define{
@@ -68,7 +68,7 @@
 
 .auth-form {
   min-height: 100vh;
-  background: #fafafa;
+  background: $bg-primary;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,9 +76,11 @@
   padding-bottom: 100px;
 
   .container-box {
-    width: 500px !important;
+    max-width: 500px !important;
+    width: 95%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     .md-title {
       margin-bottom: 20px;
@@ -97,16 +99,105 @@
 
     .card {
       padding: 30px 50px 50px;
-      border-top: 3px solid #1ad7dd;
+      border-top: 3px solid $secondary;
       border-radius: 0;
       border-left: 0;
       border-bottom: 0;
       border-right: 0;
+       @media (max-width:375px) {
+          padding: 25px;
+        }
 
       .remember-box {
         display: flex;
         justify-content: space-between;
+        @media (max-width:375px) {
+          font-size: 13px;
+        }
+      }
+
+      .input-group {
+        margin-bottom: 20px;
+      }
+
+      .or {
+        position: relative;
+
+        p {
+          position: absolute;
+          top: 0;
+          background: #fff;
+          padding: 3px 10px;
+          left: 46%;
+        }
+      }
+
+      .sign-text {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+      }
+      .resend{
+        font-size: 13px;
+        text-align: center;
+        text-transform: uppercase;
+        .btn{
+          color: $primary;
+          padding: 0!important;
+          vertical-align: unset;
+        }
+      }
+      .token-input{
+        width: 170px;
+        margin: 20px auto;
+        .form-control{
+          border-radius: 40px;
+        }
+      }
+
+      .social-box {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width:375px) {
+          justify-content: center;
+          .social-btn{
+            margin-bottom: 10px;
+          }
+        }
       }
     }
   }
+}
+
+.md-link {
+  a {
+    text-decoration: none;
+    color: $primary;
+  }
+}
+
+.auth-btn {
+  background: $primary;
+  color: $bg-primary;
+  width: 100px;
+  border-radius: 40px;
+}
+
+.social-btn {
+  width: 140px;
+  color: $bg-primary;
+  border-radius: 40px;
+  text-transform: uppercase;
+  i{
+    margin-right: 5px;
+  }
+}
+.full-btn{
+  width: 100%;
+  background: $primary;
+  color: $bg-primary;
+  border-radius: 40px;
+  margin-bottom: 20px;
 }
