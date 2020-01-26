@@ -25,6 +25,16 @@ const routes = [
         component: require('../views/pages/review').default
     },
     {
+        path: '/forgot-password',
+        name: 'forgotPassword',
+        component: require('../views/pages/forget-password').default
+    },
+    {
+        path: '/faq',
+        name: 'faq',
+        component: require('../views/pages/faq').default
+    },
+    {
         path: '/404',
         name: '404',
         component: require('../views/pages/404').default

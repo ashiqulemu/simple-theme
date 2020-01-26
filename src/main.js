@@ -6,6 +6,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
 import './assets/sass/soumik.scss'
+import './assets/sass/juhurul.scss'
 
 // Theme partial scss
 
