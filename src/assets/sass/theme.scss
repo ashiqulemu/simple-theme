@@ -9,6 +9,14 @@
 
 
 //================ close header css=======================//
+.error-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 
 .auth-form {
   min-height: 100vh;
@@ -125,8 +133,9 @@
 .auth-btn {
   background: $primary;
   color: $bg-primary;
-  width: 100px;
   border-radius: 40px;
+  padding: 5px 20px;
+  text-transform: uppercase;
 }
 
 .social-btn {
