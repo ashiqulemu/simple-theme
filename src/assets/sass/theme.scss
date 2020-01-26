@@ -1,7 +1,6 @@
 @import '../sass/color-variables';
 
 
-
 //================== header css goes here===================//
 
 .header {
@@ -21,9 +20,11 @@
   padding-bottom: 100px;
 
   .container-box {
-    width: 500px !important;
+    max-width: 500px !important;
+    width: 95%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     .md-title {
       margin-bottom: 20px;
@@ -47,21 +48,20 @@
       border-left: 0;
       border-bottom: 0;
       border-right: 0;
+       @media (max-width:375px) {
+          padding: 25px;
+        }
 
       .remember-box {
         display: flex;
         justify-content: space-between;
+        @media (max-width:375px) {
+          font-size: 13px;
+        }
       }
 
       .input-group {
         margin-bottom: 20px;
-      }
-
-      .auth-btn {
-        background: $primary;
-        color: $bg-primary;
-        width: 100px;
-        border-radius: 40px;
       }
 
       .or {
@@ -73,10 +73,26 @@
           background: #fff;
           padding: 3px 10px;
           left: 46%;
-
         }
+      }
 
+      .sign-text {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+      }
 
+      .social-box {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width:375px) {
+          justify-content: center;
+          .social-btn{
+            margin-bottom: 10px;
+          }
+        }
       }
     }
   }
@@ -87,5 +103,21 @@
     text-decoration: none;
     color: $primary;
   }
+}
 
+.auth-btn {
+  background: $primary;
+  color: $bg-primary;
+  width: 100px;
+  border-radius: 40px;
+}
+
+.social-btn {
+  width: 140px;
+  color: $bg-primary;
+  border-radius: 40px;
+  text-transform: uppercase;
+  i{
+    margin-right: 5px;
+  }
 }
