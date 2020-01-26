@@ -10,7 +10,9 @@
             <div class="card">
                 <div class="input-group flex-nowrap">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">@</span>
+                        <span class="input-group-text">
+                            <i class="mdi mdi-cart"></i>
+                        </span>
                     </div>
                     <input type="text" class="form-control" placeholder="Username or Email"
                            aria-label="Username or Email">
