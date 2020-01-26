@@ -73,6 +73,46 @@
   min-height: 100vh;
 }
 
+
+.review-area {
+  margin-top: 100px;
+  width: 100%;
+
+  .review-container {
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 11px 35px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+
+    .profile-title {
+      font-weight: bold;
+      color: $primary;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+    .employee-rating {
+      margin-bottom: 15px;
+    }
+
+    .employee-details {
+      color: #999;
+    }
+
+    .employee-image {
+      height: 60px;
+      border-radius: 100%;
+    }
+  }
+}
+
+
+.mdi-star {
+  color: #EEB829;
+  font-size: 20px;
+}
+
 //================ close header css =======================//
 
 .auth-form {
