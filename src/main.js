@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
 import './assets/sass/soumik.scss'
 
+// Theme partial scss
+
 Vue.config.productionTip = false
 
 new Vue({

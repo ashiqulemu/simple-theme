@@ -1,7 +1,13 @@
-.kol {
-  color: red;
+@import '../sass/color-variables';
+
+//================== header css goes here===================//
+
+.header{
+  background: $primary;
 }
 
+
+//================ close header css=======================//
 
 .auth-form {
   min-height: 100vh;
