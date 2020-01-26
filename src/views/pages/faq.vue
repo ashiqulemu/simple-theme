@@ -1,5 +1,7 @@
 <template>
-    
+    <div>
+        i am faq
+    </div>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      <p class="kol"> hhello im cssss</p>
+      <span class="mdi mdi-access-point"></span>
   </div>
 </template>
 

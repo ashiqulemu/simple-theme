@@ -6,6 +6,9 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
 import './assets/sass/soumik.scss'
+import './assets/sass/juhurul.scss'
+import '@mdi/font/css/materialdesignicons.css'
+// Theme partial scss
 
 Vue.config.productionTip = false
 

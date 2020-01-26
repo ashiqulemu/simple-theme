@@ -1,0 +1,14 @@
+
+  //============= colors =================================
+  $primary:#256cff;
+  $secondary:#283A70;
+  $bg-primary:#fafafa;
+
+  //======================== Helper classes =====================
+
+  .bg-primary{
+    background: $primary;
+  }
+  .bg-secondary{
+    background: $secondary;
+  }

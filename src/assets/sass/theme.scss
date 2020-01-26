@@ -1,25 +1,48 @@
-.kol {
-  color: red;
+@import '../sass/color-variables';
+
+
+
+//================== header css goes here===================//
+
+.header {
+  background: $primary;
 }
 
 
+//================ close header css=======================//
+
 .auth-form {
   min-height: 100vh;
-  background: #fafafa;
+  background: $bg-primary;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .container-box {
+    width: 500px !important;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    .md-title {
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 28px;
+      font-size: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+    }
+
+    .md-subtitle {
+      text-align: center;
+      padding: 24px 15px;
+    }
 
     .card {
-      width: 500px !important;
       padding: 30px 50px 50px;
-      border-top: 3px solid #1ad7dd;
+      border-top: 3px solid $secondary;
       border-radius: 0;
       border-left: 0;
       border-bottom: 0;
@@ -29,6 +52,40 @@
         display: flex;
         justify-content: space-between;
       }
+
+      .input-group {
+        margin-bottom: 20px;
+      }
+
+      .auth-btn {
+        background: $primary;
+        color: $bg-primary;
+        width: 100px;
+        border-radius: 40px;
+      }
+
+      .or {
+        position: relative;
+
+        p {
+          position: absolute;
+          top: 0;
+          background: #fff;
+          padding: 3px 10px;
+          left: 46%;
+
+        }
+
+
+      }
     }
   }
+}
+
+.md-link {
+  a {
+    text-decoration: none;
+    color: $primary;
+  }
+
 }
