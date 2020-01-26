@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-   i am home
+      <p class="kol"> hhello im cssss</p>
   </div>
 </template>
 
