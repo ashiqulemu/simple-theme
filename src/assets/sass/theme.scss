@@ -54,7 +54,6 @@
      }
    }
 }
-
 .navbar-toggler{
   &.user-defined{
     background: $primary;
@@ -63,8 +62,86 @@
   }
 }
 
-
 //================ close header css=======================//
+
+
+//===================== Home page section===================
+
+ .home-slider{
+   height: 100vh;
+   width: 100%;
+   background: url("../../assets/images/slider/1.png") no-repeat;
+   overflow:hidden ;
+   background-size: cover;
+   .left-content{
+     height: auto ;
+   }
+    .right-content{
+      background: transparent;
+      height: 90vh;
+      display: flex;
+      align-items:center;
+      flex-direction: column;
+      justify-content: center;
+      p.title{
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        line-height: 0.6;
+      }
+      h1{
+        font-size: 1.8rem;
+        font-weight: normal;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding: 12px 0;
+      }
+
+      .button-action{
+        margin-top: 15px;
+          button{
+            padding: 7px 14px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #2d2c2c;
+            display: inline-block;
+            margin: 0 10px 0 0;
+            border: 1px solid $btn-border;
+            background: $btn-slider;
+            transition: 0.3s all;
+            position: relative;
+            &:hover{
+              transform: translateY(-2px);
+              box-shadow: $shadow;
+              outline: 0;
+              color:white;
+              &:after{
+                height: 100%;
+                z-index: -1;
+
+              }
+            }
+            &:after{
+              content: '';
+              transition:height 0.3s ease;
+              left: 0;
+              bottom: 0;
+              position: absolute;
+              background: #283A70;
+              width: 100%;
+              height: 0;
+              padding: 0;
+            }
+          }
+      }
+
+    }
+
+ }
+
+//===================== Home page section close ===================
+
 .error-page{
   display: flex;
   justify-content: center;
@@ -113,7 +190,7 @@
   font-size: 20px;
 }
 
-//================ close header css =======================//
+
 
 .auth-form {
   min-height: 100vh;
