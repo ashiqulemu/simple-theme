@@ -1,41 +1,125 @@
 @import "color-variables";
 
+// primary margin variable
+$msg-margin: 20px;
 
-.download-area {
+//this scss codes are written for download page
+.download-area{
   min-width: 600px;
   margin: auto;
   text-align: center;
   padding-top: 200px;
   font-style: italic;
 
-  .image-area {
-    img {
-      width: 150px;
-    }
-
-    p {
-      font-size: 30px;
-    }
-
+  .image-area img{
+    width: 150px;
   }
 
-  .message-area {
+  .message-area p {
+    font-size: 30px;
+  }
+
+  .message-area h2, p {
     margin-top: 20px;
-
-    p {
-      font-size: 30px;
-    }
   }
 
-  .request-download-area {
-    p {
-      font-size: 20px;
-      font-style: normal;
-    }
+  .request-download-area p{
+    font-size: 20px;
+    font-style: normal;
+  }
 
-    a {
-      color: $nav-link;
-    }
+  .request-download-area a{
+    color: $nav-link;
   }
 }
 
+//this scss codes are written for coming-soon page
+.pointed-area{
+  width: 900px;
+  margin: 200px auto;
+  .coming-soon-area{
+    width: 420px;
+    float: left;
+    .coming-soon{
+      text-align: center;
+
+      .title-and-msg{
+        img{
+          width: 30px;
+        }
+
+        h3{
+          margin-top: $msg-margin;
+          font-size: 50px;
+        }
+        p{
+          font-size: 25px;
+        }
+      }
+      .coming-timer{
+        color: $primary;
+        margin-top: 50px;
+        .coming-timer-div{
+          float: left;
+          .digit{
+            color: white;
+            background-color: black;
+            padding: 15px;
+            border-radius: 3px;
+            margin-right: 2px;
+            font-weight: bold;
+            font-size: 25px;
+          }
+          .clone{
+            margin: 0 5px 0 5px;
+          }
+          .timer-intro{
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+  }
+  // starting coding for news letter area
+  .news-letter-area{
+    .news-letter{
+      float: right;
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+      background-color: $primary;
+      margin-top: 50px;
+      .newsletter-title{
+        font-size: 40px;
+        text-transform: uppercase;
+        margin: 20px 0 20px 55px;
+      }
+      .form-input{
+        text-align: center;
+        input{
+          width: 250px;
+          height: 40px;
+          border: none;
+          border-radius: 10px;
+          color: #999999;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+      button{
+        margin: 10px 0 0 52px;
+        border: none;
+        width: 245px;
+        height: 45px;
+        border-radius: 10px;
+      }
+      p{
+        color: $bg-primary;
+        width: 255px;
+        margin: 20px 0 0 50px;
+      }
+    }
+  }
+}

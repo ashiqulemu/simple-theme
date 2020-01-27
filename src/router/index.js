@@ -54,6 +54,11 @@ const routes = [
         name: '404',
         component: require('../views/pages/404').default
     },
+    {
+        path: '/coming-soon',
+        name: 'comingSoon',
+        component: require('../views/pages/coming-soon').default
+    },
 
 
 ]
