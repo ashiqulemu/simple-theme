@@ -1,0 +1,43 @@
+@import "color-variables";
+
+
+$black: #000000;
+
+.accordion{
+
+  .card{
+    border: none;
+    margin-bottom: 20px;
+
+    .card-content{
+      border: 1px solid lighten($black, 85%);
+      border-radius: 40px;
+
+      .card-header{
+        background: $bg-primary;
+        border-radius: 100px;
+        justify-content: space-between;
+        border: 1px solid lighten($black, 85%);
+
+        .lead{
+          margin-bottom: 0 !important;
+        }
+
+        .down-icon{
+          font-size: 26px;
+          color: lighten($black, 60%);
+        }
+      }
+    }
+
+  }
+
+}
+.card-header[aria-expanded='true']{
+  .down-icon{
+    transform: rotate(180deg);
+  }
+}
+.icon-transform{
+  transform: rotate(90deg);
+}
