@@ -35,9 +35,29 @@ const routes = [
         component: require('../views/pages/faq').default
     },
     {
+        path: '/download',
+        name: 'download',
+        component: require('../views/pages/download').default
+    },
+    {
+        path: '/blog-list',
+        name: 'blogList',
+        component: require('../views/blog/blog-list').default
+    },
+    {
+        path: '/blog-details',
+        name: 'blogDetails',
+        component: require('../views/blog/blog-details').default
+    },
+    {
         path: '/404',
         name: '404',
         component: require('../views/pages/404').default
+    },
+    {
+        path: '/coming-soon',
+        name: 'comingSoon',
+        component: require('../views/pages/coming-soon').default
     },
 
 
