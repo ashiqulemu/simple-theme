@@ -76,29 +76,7 @@
                </nav>
            </div>
        </header>
-       <div class="home-slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="left-content">
 
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="right-content">
-                            <p class="title">big discount</p>
-                            <h1 class="text-center py-3">
-                                Make your own business!</h1>
-
-                            <div class="button-action">
-                                <button type="button"> Get Your choice! </button>
-                                <button type="button"> Get Your choice! </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-       </div>
    </div>
 </template>
 
