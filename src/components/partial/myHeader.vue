@@ -88,7 +88,7 @@
                         <div class="right-content">
                             <p class="title">big discount</p>
                             <h1 class="text-center py-3">
-                                Make your own business with some smiley!</h1>
+                                Make your own business!</h1>
 
                             <div class="button-action">
                                 <button type="button"> Get Your choice! </button>
