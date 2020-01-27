@@ -1,0 +1,32 @@
+@import "color-variables";
+
+
+.download-area{
+
+  min-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding-top: 200px;
+  font-style: italic;
+
+  .image-area img{
+    width: 150px;
+  }
+
+  .message-area p {
+    font-size: 30px;
+  }
+
+  .message-area h2, p {
+    margin-top: 20px;
+  }
+
+  .request-download-area p{
+    font-size: 20px;
+    font-style: normal;
+  }
+
+  .request-download-area a{
+    color: $nav-link;
+  }
+}
