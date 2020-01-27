@@ -45,6 +45,11 @@ const routes = [
         component: require('../views/blog/blog-list').default
     },
     {
+        path: '/blog-details',
+        name: 'blogDetails',
+        component: require('../views/blog/blog-details').default
+    },
+    {
         path: '/404',
         name: '404',
         component: require('../views/pages/404').default

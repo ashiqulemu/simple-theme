@@ -1,5 +1,4 @@
 <template>
-    <div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -15,7 +14,7 @@
                             <p>Your download request should have been started automatically</p>
                         </div>
                         <div class="request-download-area">
-                            <p>
+                            <div>
                                 If it's not working, then kindly
                                 <a href="#">
                                     Click here to download manually
@@ -23,12 +22,11 @@
                                 <span>
                                     Thank you.
                                 </span>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     
 </template>

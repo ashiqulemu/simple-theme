@@ -1,9 +1,9 @@
 <template>
-    <div class="blog-container">
+    <div class="container">
         <div class="blog-box">
             <div class="row">
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -46,8 +46,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -90,8 +90,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -134,8 +134,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -178,8 +178,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -222,8 +222,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -266,8 +266,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -310,8 +310,8 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-3">
-                    <div class="card" style="width: 18rem;">
+                <div class="col-md-3 mb-4 px-3">
+                    <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
@@ -356,20 +356,39 @@
                 </div>
             </div>
         </div>
+        <nav aria-label="Blog Page navigation" class="d-flex justify-content-center">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </template>
 
 <script>
     export default {
         name: "blog-list",
-        data(){
-            return{
-                favourites:[2]
+        data() {
+            return {
+                favourites: [2]
             }
         },
-        methods:{
-            doFavourite(item){
-                this.favourites.includes(item)?this.favourites.splice(this.favourites.indexOf(item),1):this.favourites.push(item)
+        methods: {
+            doFavourite(item) {
+                this.favourites.includes(item) ? this.favourites.splice(this.favourites.indexOf(item), 1) : this.favourites.push(item)
             }
         }
     }
