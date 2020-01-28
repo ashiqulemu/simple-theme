@@ -471,9 +471,84 @@
   }
 }
 
-.flex-reverse{
+.blog-sidebar {
+  padding: 25px 0;
+  background: $bg-primary;
+
+  .search-box {
+    padding: 0 15px;
+
+    .submit-btn {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      background: $primary;
+      color: $bg-primary;
+    }
+  }
+
+  .side-category {
+    padding: 20px 0;
+
+    .category-title {
+      font-size: 15px;
+      text-align: center;
+      font-weight: bold;
+      color: #256cff;
+      border-top: 1px solid #ced4da6b;
+      border-bottom: 1px solid #ced4da85;
+      padding: 6px;
+    }
+
+    .category-list {
+      padding: 10px 0;
+
+      .category-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 15px;
+        color: $bg-social1;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+          padding: 5px 10px;
+          border-left: 5px solid $primary;
+          font-weight: bold;
+          background: #e7eaed;
+        }
+      }
+
+      ul {
+
+        font-size: 12px;
+
+        li {
+          padding: 2px 30px;
+          list-style: none;
+          a{
+            color: $secondary;
+          }
+          &:hover {
+          padding: 2px 25px;
+          border-left: 5px solid $secondary;
+          font-weight: bold;
+          background: #e7eaed;
+        }
+
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex-reverse {
   flex-direction: row-reverse;
 }
+
 .stars {
   input.star {
     display: none;
@@ -496,24 +571,25 @@
   label.star:hover {
     transform: rotate(-15deg) scale(1.3);
   }
+
   input.star-5:checked ~ label.star:before {
-  color: #FE7;
-  text-shadow: 0 0 20px #952;
+    color: #FE7;
+    text-shadow: 0 0 20px #952;
+  }
+
+  input.star-1:checked ~ label.star:before {
+    color: #F62;
+  }
+
+  label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+  }
+
+  label.star:before {
+    content: '\2605';
+  }
 }
 
-input.star-1:checked ~ label.star:before {
-  color: #F62;
-}
-
-label.star:hover {
-  transform: rotate(-15deg) scale(1.3);
-}
-
-label.star:before {
-  content: '\2605';
-}
-}
-
-.sidebar-check{
+.sidebar-check {
   position: absolute;
 }
