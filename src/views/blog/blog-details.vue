@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="blog-details row">
-            <div class="col-md-12 blog-content">
+            <div class="col-md-8 blog-content">
                 <div class="img-box">
                     <img src="../../assets/images/blog/blog1.png"
                          alt="Blog Details"
@@ -184,6 +184,16 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="blog-sidebar">
+                <div class="input-group search-box">
+                    <input class="form-control"
+                           placeholder="Search"
+                           type="text">
+                    <div class="input-group-btn">
+                        <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
