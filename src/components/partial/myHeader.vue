@@ -1,91 +1,99 @@
 <template>
-   <div>
-       <header class="header">
-           <div class="container">
-               <nav class="navbar navbar-expand-lg">
-                   <a class="navbar-brand" href="#">
-                       <img src="../../assets/images/logo.png" height="30" alt="">
-                   </a>
-                   <button class="navbar-toggler user-defined" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="mdi mdi-menu"></span>
-                   </button>
-                   <div class="collapse navbar-collapse nav-user-define" id="navbarSupportedContent-4">
-                       <ul class="navbar-nav ml-auto">
-                           <li class="nav-item">
-                               <a class="nav-link active" href="#">
-                                   home
-                               </a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   about
-                               </a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   feature
-                               </a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   screenshot
-                               </a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   team
-                               </a>
-                           </li>
-                           <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5"
-                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   <i class="fa fa-newspaper-o"></i> blog </a>
-                               <div class="dropdown-menu dropdown-menu-right dropdown-user-define" aria-labelledby="navbarDropdownMenuLink-4">
-                                   <a class="dropdown-item" href="#">blog </a>
-                                   <router-link class="dropdown-item" :to="{name:'blogList'}">blog list</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details</router-link>
-                               </div>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   price
-                               </a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="#">
-                                   contact us
-                               </a>
-                           </li>
+    <div>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="#">
+                        <img src="../../assets/images/logo.png" height="30" alt="">
+                    </a>
+                    <button class="navbar-toggler user-defined" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="mdi mdi-menu"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-user-define" id="navbarSupportedContent-4">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/">
+                                    home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link"  @click="$root.scrollToElement('home-about')">
+                                    about
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link"  @click="$root.scrollToElement('home-feature')">
+                                    feature
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">
+                                    screenshot
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">
+                                    team
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-newspaper-o"></i> blog </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-user-define"
+                                     aria-labelledby="navbarDropdownMenuLink-4">
+                                    <a class="dropdown-item" href="#">blog </a>
+                                    <router-link class="dropdown-item" :to="{name:'blogList'}">blog list</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details
+                                    </router-link>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">
+                                    price
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">
+                                    contact us
+                                </a>
+                            </li>
 
-                           <li class="nav-item dropdown">
-                               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4"
-                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   other page </a>
-                               <div class="dropdown-menu dropdown-menu-right dropdown-user-define" aria-labelledby="navbarDropdownMenuLink-4">
-                                   <router-link class="dropdown-item" :to="{name:'thankYou'}">Thank You</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'review'}">Review</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'download'}">Download</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'comingSoon'}">Coming Soon</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'error'}">404</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'faq'}">Faq</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'signIn'}">Sign In</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'signUp'}">Sign Up</router-link>
-                                   <router-link class="dropdown-item" :to="{name:'forgotPassword'}">Forgot Password</router-link>
-                               </div>
-                           </li>
-                       </ul>
-                   </div>
-               </nav>
-           </div>
-       </header>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    other page </a>
+                                <div class="dropdown-menu dropdown-menu-right dropdown-user-define"
+                                     aria-labelledby="navbarDropdownMenuLink-4">
+                                    <router-link class="dropdown-item" :to="{name:'thankYou'}">Thank You</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'review'}">Review</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'download'}">Download</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'comingSoon'}">Coming Soon
+                                    </router-link>
+                                    <router-link class="dropdown-item" :to="{name:'error'}">404</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'faq'}">Faq</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'signIn'}">Sign In</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'signUp'}">Sign Up</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'forgotPassword'}">Forgot Password
+                                    </router-link>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
-   </div>
+    </div>
 </template>
 
 <script>
     export default {
 
-    }
+
+        }
 </script>
 
 <style scoped>

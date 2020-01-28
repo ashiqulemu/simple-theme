@@ -13,7 +13,18 @@ import '@mdi/font/css/materialdesignicons.css'
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    el: '#app',
+    render: h => h(App),
+    methods: {
+        scrollToElement(divClass) {
+            const el = this.$el.getElementsByClassName(divClass)[0];
+            if (el) {
+                el.scrollIntoView();
+            }
+        }
+    }
 }).$mount('#app')
+
+
