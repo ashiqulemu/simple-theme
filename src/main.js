@@ -21,7 +21,8 @@ new Vue({
         scrollToElement(divClass) {
             const el = this.$el.getElementsByClassName(divClass)[0];
             if (el) {
-                el.scrollIntoView();
+                el.classList.add('transition');
+                el.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
         }
     }
