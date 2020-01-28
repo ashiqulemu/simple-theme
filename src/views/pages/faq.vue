@@ -39,17 +39,50 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse3">
+                                <p class="lead">What is the point of Lorem Ipsum?</p>
+                                <i class="mdi mdi-chevron-down down-icon"></i>
+                            </div>
+
+                            <div id="collapse3" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead">What exactly is the purpose of Lorem Ipsum? Within the printing,
+                                        publishing, and graphic design industries, Lorem Ipsum is placeholder text used to
+                                        visualize the graphic layout of a document where actual text will eventually be.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse4">
+                                <p class="lead">What is the point of Lorem Ipsum?</p>
+                                <i class="mdi mdi-chevron-down down-icon"></i>
+                            </div>
+
+                            <div id="collapse4" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead">What exactly is the purpose of Lorem Ipsum? Within the printing,
+                                        publishing, and graphic design industries, Lorem Ipsum is placeholder text used to
+                                        visualize the graphic layout of a document where actual text will eventually be.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="accordion-right">
                     <div class="card">
                         <div class="card-content">
-                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse3">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse5">
                                 <p class="lead">What is a Lorem Ipsum generator?</p>
                                <i class="mdi mdi-chevron-down down-icon"></i>
                             </div>
 
-                            <div id="collapse3" class="collapse">
+                            <div id="collapse5" class="collapse">
                                 <div class="card-body">
                                     <p class="lead">Derived from Latin dolorem ipsum, Lorem Ipsum is filler
                                         text used by publishers and graphic designers used to demonstrate graphic elements.
@@ -61,12 +94,12 @@
 
                     <div class="card">
                         <div class="card-content">
-                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse4">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse6">
                                 <p class="lead">Who created Lorem Ipsum?</p>
                                 <i class="mdi mdi-chevron-down down-icon"></i>
                             </div>
 
-                            <div id="collapse4" class="collapse">
+                            <div id="collapse6" class="collapse">
                                 <div class="card-body">
                                     <p class="lead">The standard usage, created by an anonymous printer in the 16th century,
                                         goes like this: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -75,6 +108,41 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse7">
+                                <p class="lead">What is the point of Lorem Ipsum?</p>
+                                <i class="mdi mdi-chevron-down down-icon"></i>
+                            </div>
+
+                            <div id="collapse7" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead">What exactly is the purpose of Lorem Ipsum? Within the printing,
+                                        publishing, and graphic design industries, Lorem Ipsum is placeholder text used to
+                                        visualize the graphic layout of a document where actual text will eventually be.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-header d-flex" data-toggle="collapse" data-target="#collapse8">
+                                <p class="lead">What is the point of Lorem Ipsum?</p>
+                                <i class="mdi mdi-chevron-down down-icon"></i>
+                            </div>
+
+                            <div id="collapse8" class="collapse">
+                                <div class="card-body">
+                                    <p class="lead">What exactly is the purpose of Lorem Ipsum? Within the printing,
+                                        publishing, and graphic design industries, Lorem Ipsum is placeholder text used to
+                                        visualize the graphic layout of a document where actual text will eventually be.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
