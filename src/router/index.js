@@ -71,11 +71,6 @@ const routes = [
         component: require('../views/blog/blog-details-right').default
     },
     {
-        path: '/404',
-        name: 'error',
-        component: require('../views/pages/404').default
-    },
-    {
         path: '/coming-soon',
         name: 'comingSoon',
         component: require('../views/pages/coming-soon').default
@@ -84,6 +79,11 @@ const routes = [
         path: '/thank-you',
         name: 'thankYou',
         component: require('../views/pages/thank-you').default
+    },
+    {
+        path: '/*',
+        name: 'error',
+        component: require('../views/pages/404').default
     },
 
 
