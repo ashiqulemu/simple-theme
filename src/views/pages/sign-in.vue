@@ -81,7 +81,13 @@
 
 <script>
     export default {
-        name: "sign-in"
+        name: "sign-in",
+        data(){
+            return{
+                username:'',
+                email:''
+            }
+        }
     }
 </script>
 

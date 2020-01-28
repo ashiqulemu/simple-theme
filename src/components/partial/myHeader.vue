@@ -42,13 +42,8 @@
                                    <i class="fa fa-newspaper-o"></i> blog </a>
                                <div class="dropdown-menu dropdown-menu-right dropdown-user-define" aria-labelledby="navbarDropdownMenuLink-4">
                                    <a class="dropdown-item" href="#">blog </a>
-                                   <a class="dropdown-item" href="#">blog list</a>
-                                   <a class="dropdown-item" href="#">blog list</a>
-                                   <a class="dropdown-item" href="#">blog details</a>
-                                   <a class="dropdown-item" href="#">left sidebar  </a>
-                                   <a class="dropdown-item" href="#">right sidebar</a>
-                                   <a class="dropdown-item" href="#">details left sidebar </a>
-                                   <a class="dropdown-item" href="#">details right sidebar</a>
+                                   <router-link class="dropdown-item" :to="{name:'blogList'}">blog list</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details</router-link>
                                </div>
                            </li>
                            <li class="nav-item">
@@ -67,8 +62,15 @@
                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                    other page </a>
                                <div class="dropdown-menu dropdown-menu-right dropdown-user-define" aria-labelledby="navbarDropdownMenuLink-4">
-                                   <a class="dropdown-item" href="#">Facebook</a>
-                                   <a class="dropdown-item" href="#">Instagram</a>
+                                   <router-link class="dropdown-item" :to="{name:'thankYou'}">Thank You</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'review'}">Review</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'download'}">Download</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'comingSoon'}">Coming Soon</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'error'}">404</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'faq'}">Faq</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'signIn'}">Sign In</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'signUp'}">Sign Up</router-link>
+                                   <router-link class="dropdown-item" :to="{name:'forgotPassword'}">Forgot Password</router-link>
                                </div>
                            </li>
                        </ul>
