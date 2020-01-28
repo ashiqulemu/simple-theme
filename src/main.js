@@ -15,23 +15,18 @@ Vue.config.productionTip = false
 new Vue({
     router,
     store,
-    el: '#app',
     render: h => h(App),
     methods: {
 
         scrollToElement(divClass) {
             if (this.$route.path != "/") {
                 router.push({path: '/'})
-                const el = this.$el.getElementsByClassName(divClass)[0];
-                if (el) {
-                    el.scrollIntoView({behavior: 'smooth', block: 'start'});
-                }
-            } else {
-                const el = this.$el.getElementsByClassName(divClass)[0];
-                if (el) {
-                    el.scrollIntoView({behavior: 'smooth', block: 'start'});
-                }
             }
+            const el = this.$el.getElementsByClassName(divClass)[0];
+            if (el) {
+                el.scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+
 
         }
     }
