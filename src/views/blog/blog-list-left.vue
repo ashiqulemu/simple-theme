@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -127,7 +127,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -303,7 +303,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -347,7 +347,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"
@@ -391,7 +391,7 @@
                 </div>
                 <div class="col-md-4 mb-3 px-2">
                     <div class="card">
-                        <router-link to="/">
+                        <router-link to="/blog-details">
                             <img class="card-img-top"
                                  src="../../assets/images/blog/blog1.png"
                                  alt="Card image cap"

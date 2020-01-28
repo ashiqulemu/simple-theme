@@ -81,8 +81,13 @@ const routes = [
         component: require('../views/pages/thank-you').default
     },
     {
-        path: '/*',
+        path: '/error',
         name: 'error',
+        component: require('../views/pages/404').default
+    },
+    {
+        path: '/*',
+        name: 'error-page',
         component: require('../views/pages/404').default
     },
 

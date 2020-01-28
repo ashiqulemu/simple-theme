@@ -64,7 +64,13 @@
 
 <script>
     export default {
-        name: "coming-soon"
+        name: "coming-soon",
+        data(){
+            return{
+                username:'',
+                email:''
+            }
+        }
     }
 </script>
 
