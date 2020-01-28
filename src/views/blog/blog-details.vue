@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="blog-details row">
-            <div class="col-md-12 blog-content">
+            <div class="col-md-8 blog-content">
                 <div class="img-box">
                     <img src="../../assets/images/blog/blog1.png"
                          alt="Blog Details"
@@ -184,6 +184,59 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="blog-sidebar col-md-4">
+                <div class="input-group search-box">
+                    <input class="form-control"
+                           placeholder="Search"
+                           type="text">
+                    <div class="input-group-btn">
+                        <button class="btn submit-btn" type="submit">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="side-category">
+                    <div class="category-title">Categories</div>
+                    <ul class="nav navbar-nav category-list">
+                        <li>
+                            <a href="#" data-toggle="collapse"
+                               data-target="#submenu-1"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                            <ul id="submenu-1" class="collapse">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                           <a href="#"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recent-post">
+                    <div class="post-title">Categories</div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
