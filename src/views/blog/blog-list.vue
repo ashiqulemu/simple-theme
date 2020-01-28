@@ -8,7 +8,7 @@
         </div>
         <div class="blog-box">
             <div class="row">
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -52,7 +52,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -96,7 +96,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -140,7 +140,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -184,7 +184,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -228,7 +228,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -272,7 +272,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -316,7 +316,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-3 px-2">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
