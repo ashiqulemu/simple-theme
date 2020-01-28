@@ -39,15 +39,36 @@ const routes = [
         name: 'download',
         component: require('../views/pages/download').default
     },
+
     {
         path: '/blog-list',
         name: 'blogList',
         component: require('../views/blog/blog-list').default
     },
     {
+        path: '/blog-list-left-sidebar',
+        name: 'blogListLeft',
+        component: require('../views/blog/blog-list-left').default
+    },
+    {
+        path: '/blog-list-right-sidebar',
+        name: 'blogListRight',
+        component: require('../views/blog/blog-list-right').default
+    },
+    {
         path: '/blog-details',
         name: 'blogDetails',
         component: require('../views/blog/blog-details').default
+    },
+    {
+        path: '/blog-details-left-sidebar',
+        name: 'blogDetailsLeft',
+        component: require('../views/blog/blog-details-left').default
+    },
+    {
+        path: '/blog-details-right-sidebar',
+        name: 'blogDetailsRight',
+        component: require('../views/blog/blog-details-right').default
     },
     {
         path: '/404',

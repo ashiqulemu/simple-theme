@@ -6,9 +6,82 @@
             <router-link :to="{name:'blogList'}" class="blog-link">No Sidebar</router-link>
             <router-link :to="{name:'blogListRight'}" class="blog-link">Right Sidebar</router-link>
         </div>
-        <div class="blog-box">
+        <div class=" blog-box row">
+            <div class="blog-sidebar col-md-3">
+                <div class="input-group search-box">
+                    <input class="form-control"
+                           placeholder="Search"
+                           type="text">
+                    <div class="input-group-btn">
+                        <button class="btn submit-btn" type="submit">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="side-category">
+                    <div class="category-title">Categories</div>
+                    <ul class="nav navbar-nav category-list">
+                        <li>
+                            <a href="#" data-toggle="collapse"
+                               data-target="#submenu-1"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                            <ul id="submenu-1" class="collapse">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="category-item"
+                            >
+                                <span>Category 1</span>
+                                <i class="mdi mdi-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recent-post">
+                    <div class="post-title">Recent Post</div>
+                    <ul class="post-box">
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        <div class=" col-md-9">
             <div class="row">
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -52,7 +125,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -96,7 +169,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -140,7 +213,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -184,7 +257,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -228,7 +301,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -272,7 +345,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -316,7 +389,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-3 mb-4 px-3">
+                <div class="col-md-4 mb-4 px-3">
                     <div class="card">
                         <router-link to="/">
                             <img class="card-img-top"
@@ -381,13 +454,14 @@
             </ul>
         </nav>
         </div>
+        </div>
+
 
     </div>
 </template>
 
 <script>
     export default {
-        name: "blog-list",
         data() {
             return {
                 favourites: [2]
