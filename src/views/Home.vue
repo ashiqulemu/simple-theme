@@ -126,7 +126,44 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                       gdgfdgfdgfdgfdgfdg
+                        <div class="features-boxes">
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-update text-primary"></span> Quick Update</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                                <div class="box">
+                                    <h5> <span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                    </p>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
