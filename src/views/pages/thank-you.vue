@@ -1,5 +1,15 @@
 <template>
-    
+    <div class="container">
+        <div class="base">
+            <div class="holder"></div>
+        <div class="thread">
+            <div class="knob"></div>
+            <div class="pendulum">Thank You</div>
+        </div>
+        <div class="shadow"></div>
+        </div>
+
+    </div>
 </template>
 
 <script>
@@ -9,5 +19,6 @@
 </script>
 
 <style scoped>
+
 
 </style>
