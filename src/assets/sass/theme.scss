@@ -485,6 +485,7 @@
      flex-direction: column;
      width: 100%;
      min-height: 300px;
+     margin: 50px 0;
      .topper{
        background:$price-topper;
        flex:1;
@@ -527,6 +528,7 @@
         .price-details{
           list-style-type: none;
           padding: 15px;
+          text-align: center;
         }
      }
    }

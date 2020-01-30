@@ -386,7 +386,7 @@
                     <div class="col-md-4">
                         <div class="price-box">
                             <div class="topper">
-                             <h4>free plan </h4>
+                             <h4>basic plan </h4>
                                 <div class="month">
                                     <span>$20</span>/<span>month</span>
                                 </div>
@@ -395,7 +395,7 @@
                             <div class="lower">
                                 <ul class="price-details">
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+
                                     </li>
                                     <li>
                                         Lorem ipsum dolor sit amet,123.
