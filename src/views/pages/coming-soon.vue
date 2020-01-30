@@ -1,14 +1,12 @@
 <template>
     <div class="container">
         <div class="row pointed-area">
-            <div class="col-md-6">
+            <div class="col-lg-6  col-xs-12">
                 <div class="coming-soon-area">
                     <div class="coming-soon">
-                        <div class="title-and-msg">
-                            <img src="https://www.freeiconspng.com/uploads/flame-logo-png-30.png" alt="">
-                            <h3>We are going to meet soon</h3>
-                            <p>Please keep checking after few days, we will get close gradually.</p>
-                        </div>
+                        <img src="https://www.freeiconspng.com/uploads/flame-logo-png-30.png" alt="">
+                        <div class="title">We are going to meet soon</div>
+                        <div class="message">Please keep checking after few days, we will get close gradually.</div>
                         <div class="coming-timer">
                             <!--days-->
                             <div class="coming-timer-div">
@@ -37,20 +35,25 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6 col-xs-12">
                 <div class="news-letter-area">
                     <div class="news-letter">
-                        <p class="newsletter-title">NewsLetter</p>
-                        <form>
-                            <div class="form-input">
-                                <input v-model="username" placeholder="Username">
+                        <div class="newsletter-title">NewsLetter</div>
+                        <div class="input-group flex-nowrap px-4 my-2">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="mdi mdi-email"></i>
+                                </span>
                             </div>
-                            <div class="form-input">
-                                <input type="email" v-model="email" placeholder="E-Mail">
-                            </div>
-                            <button>Subscribe</button>
-                            <p>Some exclusive contents are going to be written here .....</p>
-                        </form>
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Email"
+                                   aria-label="Email">
+                        </div>
+                        <button type="button"
+                                class="btn news-btn">Subscribe
+                        </button>
+
                     </div>
                 </div>
             </div>

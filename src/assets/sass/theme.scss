@@ -973,28 +973,30 @@
 //this scss codes are written for coming-soon page
 .pointed-area {
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 
   .coming-soon-area {
     display: flex;
+    justify-content: center;
 
     .coming-soon {
       text-align: center;
 
-
-      .title-and-msg {
         img {
           width: 30px;
         }
 
-        h3 {
+        .title {
           margin-top: 20px;
-          font-size: 50px;
+          font-size: 40px;
         }
 
-        p {
-          font-size: 25px;
+        .message {
+          font-size: 20px;
         }
-      }
 
       .coming-timer {
         display: flex;
@@ -1003,7 +1005,6 @@
         margin-top: 50px;
 
         .coming-timer-div {
-          float: left;
 
           .digit {
             color: white;
@@ -1013,6 +1014,9 @@
             margin-right: 2px;
             font-weight: bold;
             font-size: 25px;
+            @media (max-width: 425px) {
+              padding: 5px;
+            }
           }
 
           .clone {
@@ -1031,46 +1035,32 @@
 
   // starting coding for news letter area
   .news-letter-area {
+    padding: 50px;
+    @media (max-width: 425px) {
+              padding: 30px 0;
+            }
+
     .news-letter {
-      float: right;
-      width: 350px;
-      height: 350px;
       border-radius: 10px;
       background-color: $primary;
-      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+      color: $bg-primary;
 
       .newsletter-title {
-        font-size: 40px;
-        text-transform: uppercase;
-        margin: 20px 0 20px 55px;
-      }
-
-      .form-input {
         text-align: center;
-
-        input {
-          width: 250px;
-          height: 40px;
-          border: none;
-          border-radius: 10px;
-          color: #999999;
-          text-align: center;
-          margin-top: 10px;
-        }
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
       }
 
-      button {
-        margin: 10px 0 0 52px;
-        border: none;
-        width: 245px;
-        height: 45px;
-        border-radius: 10px;
-      }
-
-      p {
+      .news-btn {
+        background: $secondary;
         color: $bg-primary;
-        width: 255px;
-        margin: 20px 0 0 50px;
+        margin: 16px 0;
       }
     }
   }
