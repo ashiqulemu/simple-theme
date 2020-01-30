@@ -406,10 +406,15 @@
             },
 
             getWindowWidth() {
-                if(document.body.offsetWidth<767){
+                if(document.body.offsetWidth<769 && document.body.offsetWidth>426){
+                    this.slickOptions.slidesToShow=2
+                    this.reInit();
+                }
+                else if(document.body.offsetWidth<426){
                     this.slickOptions.slidesToShow=1
                     this.reInit();
-                }else{
+                }
+                else{
                     this.slickOptions.slidesToShow=4
                     this.reInit();
                 }
