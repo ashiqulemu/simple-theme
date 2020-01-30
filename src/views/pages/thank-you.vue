@@ -6,9 +6,7 @@
             <div class="knob"></div>
             <div class="pendulum">Thank You</div>
         </div>
-        <div class="shadow"></div>
         </div>
-
     </div>
 </template>
 
