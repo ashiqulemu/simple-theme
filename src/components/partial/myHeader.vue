@@ -46,9 +46,9 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">
+                                <button class="nav-link" @click="$root.scrollToElement('home-price')">
                                     price
-                                </a>
+                                </button>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/">
