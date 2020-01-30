@@ -36,20 +36,32 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#" data-toggle="collapse"
+                               data-target="#submenu-2"
                                class="category-item"
                             >
-                                <span>Category 1</span>
+                                <span>Category 2</span>
                                 <i class="mdi mdi-chevron-right"></i>
                             </a>
+                            <ul id="submenu-2" class="collapse">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="#" data-toggle="collapse"
+                               data-target="#submenu-3"
                                class="category-item"
                             >
-                                <span>Category 1</span>
+                                <span>Category 3</span>
                                 <i class="mdi mdi-chevron-right"></i>
                             </a>
+                            <ul id="submenu-3" class="collapse">
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 3.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 3.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 3.3</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -57,24 +69,27 @@
                     <div class="post-title">Recent Post</div>
                     <ul class="post-box">
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">I must explain to you how all this mistaken idea of denouncing pleasure and
+                                praising pain was born.</a>
                         </li>
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">I will give you a complete account of the system.</a>
                         </li>
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">Expound the actual teachings of the great explorer of the truth, the
+                                master-builder of human happiness.</a>
                         </li>
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">No one rejects, dislikes, or avoids pleasure itself.</a>
                         </li>
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">Nor again is there anyone who loves or pursues or desires to obtain pain of
+                                itself.</a>
                         </li>
                         <li class="item">
-                            <a href="#">sfdsfdsfsdfdsf sdfsdfdsfdsf sdfdsfdsfds sdfdsfdsfdsf gfsdgfdgfdgf</a>
+                            <a href="#">To take a trivial example, which of us ever undertakes laborious physical
+                                exercise, except to obtain some advantage from it</a>
                         </li>
-
 
                     </ul>
                 </div>

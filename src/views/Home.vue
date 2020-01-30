@@ -50,9 +50,10 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Strategy</h6>
-                                    <p> quos unde! A facilis impedit optio vitae voluptas. A accusantium cumque deleniti
-                                        id maxime modi nam neque numquam omnis possimus quae, repellendus sint unde,
-                                        voluptates voluptatibus? </p>
+                                    <p> The definition of business strategy is a long term plan of action designed to
+                                        achieve a particular goal or set of goals or objectives. Strategy is management's
+                                        game plan for strengthening the performance of the enterprise. It states how
+                                        business should be conducted to achieve the desired goals. </p>
 
                                 </div>
                             </div>
@@ -65,9 +66,10 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Creative</h6>
-                                    <p> quos unde! A facilis impedit optio vitae voluptas. A accusantium cumque deleniti
-                                        id maxime modi nam neque numquam omnis possimus quae, repellendus sint unde,
-                                        voluptates voluptatibus? </p>
+                                    <p> Creative person - a person whose creative work shows sensitivity and imagination.
+                                        artist. creator - a person who grows or makes or invents things. illustrator -
+                                        an artist who makes illustrations (for books or magazines or advertisements
+                                        etc.) </p>
 
                                 </div>
                             </div>
@@ -80,9 +82,9 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Technology</h6>
-                                    <p> quos unde! A facilis impedit optio vitae voluptas. A accusantium cumque deleniti
-                                        id maxime modi nam neque numquam omnis possimus quae, repellendus sint unde,
-                                        voluptates voluptatibus? </p>
+                                    <p> Since technology can be so simple or so complex, there are many types of
+                                        technology. One type is mechanical technology, which includes wheels, cams,
+                                        levers, gears, belts, and engines. </p>
 
                                 </div>
                             </div>
@@ -130,37 +132,41 @@
                                 <div class="box">
                                     <h5> <span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Similique sunt in culpa qui officia deserunt mollitia animi.
                                     </p>
                                 </div>
                                 <div class="box">
                                     <h5> <span class="mdi mdi-update text-primary"></span> Quick Update</h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Et harum quidem rerum facilis est et expedita distinctio.
                                     </p>
                                 </div>
                                 <div class="box">
                                     <h5> <span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+                                        quo minus id quod maxime placeat facere possimus.
                                     </p>
                                 </div>
                                 <div class="box">
                                     <h5> <span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Omnis voluptas assumenda est, omnis dolor repellendus.
                                     </p>
                                 </div>
                                 <div class="box">
                                     <h5> <span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                                        saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
                                     </p>
                                 </div>
                                 <div class="box">
                                     <h5> <span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus ad
+                                        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                                        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+                                        repellat.
                                     </p>
                                 </div>
                         </div>
