@@ -63,7 +63,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image2.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -107,7 +107,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image3.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -151,7 +151,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image4.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -195,7 +195,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image5.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -239,7 +239,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image6.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -283,7 +283,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image6.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
@@ -327,7 +327,7 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image2.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"

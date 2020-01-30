@@ -64,16 +64,16 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image2.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
                                 />
-                                <a href="#" class="writer">Smith Handa</a>
+                                <a href="#" class="writer">Anderson Eugenia</a>
                             </div>
                             <p class="blog-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                                ea commodo consequat.
                             </p>
                         </div>
                         <div class="my-footer">
@@ -108,16 +108,16 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image3.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
                                 />
-                                <a href="#" class="writer">Smith Handa</a>
+                                <a href="#" class="writer">Kazantzis John</a>
                             </div>
                             <p class="blog-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla pariatur.
                             </p>
                         </div>
                         <div class="my-footer">
@@ -152,16 +152,16 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image4.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
                                 />
-                                <a href="#" class="writer">Smith Handa</a>
+                                <a href="#" class="writer">Blair Verona</a>
                             </div>
                             <p class="blog-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
                             </p>
                         </div>
                         <div class="my-footer">
@@ -196,16 +196,16 @@
 
                         <div class="card-body">
                             <div class="blog-writer">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/person/image5.jpg"
                                      alt="writer"
                                      title="Blog Writer"
                                      class="person-image"
                                 />
-                                <a href="#" class="writer">Smith Handa</a>
+                                <a href="#" class="writer">Meldrum Jackie</a>
                             </div>
                             <p class="blog-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam.
                             </p>
                         </div>
                         <div class="my-footer">
