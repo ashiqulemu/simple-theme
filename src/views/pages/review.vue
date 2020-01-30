@@ -21,8 +21,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium.
                                 </p>
                             </div>
                         </div>
@@ -45,8 +45,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                                    beatae vitae dicta sunt explicabo.
                                 </p>
                             </div>
                         </div>
@@ -69,8 +69,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                                 </p>
                             </div>
                         </div>
@@ -93,8 +93,9 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                    velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                    aliquam quaerat voluptatem.
                                 </p>
                             </div>
                         </div>
@@ -117,8 +118,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                    laboriosam, nisi ut aliquid ex ea commodi consequatur
                                 </p>
                             </div>
                         </div>
@@ -141,8 +142,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem
-                                    Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s
+                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
+                                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                                 </p>
                             </div>
                         </div>
