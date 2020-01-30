@@ -175,9 +175,253 @@
             </div>
         </section>
 
+        <section class="our-team home-team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 section-shadow">
+                            <h2 class="section-title text-center">
+                                Our Team
+                            </h2>
+                            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit Accusantium
+                            </p>
+                        </div>
+                    </div>
+                    <slick  ref="slick" class="team-member-container" :options="slickOptions">
+                        <div class="team-box">
+                            <div class="photo">
+                                <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
+                            </div>
+                            <div class="name">
+                                john caramoi
+                            </div>
+                            <div class="designation">
+                                CEO
+                            </div>
+                            <div class="details">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                                enim illo illum iste
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <span class="mdi mdi-facebook-box"></span>
+                                        </a>
+                                        <a href="#" title="Twitter">
+                                            <span class="mdi mdi-twitter-box"></span>
+                                        </a>
+                                        <a href="#" title="Youtube">
+                                            <span class="mdi mdi-youtube"></span>
+                                        </a>
+                                        <a href="#" title="Instagram">
+                                            <span class="mdi mdi-instagram"></span>
+                                        </a>
+                                        <a href="#" title="Google Plus">
+                                            <span class="mdi mdi-google-plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="photo">
+                                <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
+                            </div>
+                            <div class="name">
+                                mark harison
+                            </div>
+                            <div class="designation">
+                                managing director
+                            </div>
+                            <div class="details">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                                enim illo illum iste
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <span class="mdi mdi-facebook-box"></span>
+                                        </a>
+                                        <a href="#" title="Twitter">
+                                            <span class="mdi mdi-twitter-box"></span>
+                                        </a>
+                                        <a href="#" title="Youtube">
+                                            <span class="mdi mdi-youtube"></span>
+                                        </a>
+                                        <a href="#" title="Instagram">
+                                            <span class="mdi mdi-instagram"></span>
+                                        </a>
+                                        <a href="#" title="Google Plus">
+                                            <span class="mdi mdi-google-plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="photo">
+                                <img src="../assets/images/themes/team-members/3.jpg" alt="team-photo">
+                            </div>
+                            <div class="name">
+                               Jemmy koala
+                            </div>
+                            <div class="designation">
+                                programmer
+                            </div>
+                            <div class="details">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                                enim illo illum iste
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <span class="mdi mdi-facebook-box"></span>
+                                        </a>
+                                        <a href="#" title="Twitter">
+                                            <span class="mdi mdi-twitter-box"></span>
+                                        </a>
+                                        <a href="#" title="Youtube">
+                                            <span class="mdi mdi-youtube"></span>
+                                        </a>
+                                        <a href="#" title="Instagram">
+                                            <span class="mdi mdi-instagram"></span>
+                                        </a>
+                                        <a href="#" title="Google Plus">
+                                            <span class="mdi mdi-google-plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="photo">
+                                <img src="../assets/images/themes/team-members/4.jpg" alt="team-photo">
+                            </div>
+                            <div class="name">
+                               penal Lomix
+                            </div>
+                            <div class="designation">
+                                Director
+                            </div>
+                            <div class="details">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                                enim illo illum iste
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <span class="mdi mdi-facebook-box"></span>
+                                        </a>
+                                        <a href="#" title="Twitter">
+                                            <span class="mdi mdi-twitter-box"></span>
+                                        </a>
+                                        <a href="#" title="Youtube">
+                                            <span class="mdi mdi-youtube"></span>
+                                        </a>
+                                        <a href="#" title="Instagram">
+                                            <span class="mdi mdi-instagram"></span>
+                                        </a>
+                                        <a href="#" title="Google Plus">
+                                            <span class="mdi mdi-google-plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="photo">
+                                <img src="../assets/images/themes/team-members/5.jpg" alt="team-photo">
+                            </div>
+                            <div class="name">
+                               Arbaz Maxi
+                            </div>
+                            <div class="designation">
+                                Project manager
+                            </div>
+                            <div class="details">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                                enim illo illum iste
+                            </div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Facebook">
+                                            <span class="mdi mdi-facebook-box"></span>
+                                        </a>
+                                        <a href="#" title="Twitter">
+                                            <span class="mdi mdi-twitter-box"></span>
+                                        </a>
+                                        <a href="#" title="Youtube">
+                                            <span class="mdi mdi-youtube"></span>
+                                        </a>
+                                        <a href="#" title="Instagram">
+                                            <span class="mdi mdi-instagram"></span>
+                                        </a>
+                                        <a href="#" title="Google Plus">
+                                            <span class="mdi mdi-google-plus"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </slick>
+                </div>
+        </section>
+
     </div>
 </template>
 
 <script>
-    export default {}
+    import Slick from 'vue-slick';
+    export default {
+
+        components: { Slick },
+
+        data() {
+            return {
+                slickOptions: {
+                    slidesToShow: 4,
+                },
+            };
+        },
+        created(){
+            this.getWindowWidth()
+        },
+        mounted(){
+            this.$nextTick(function() {
+                window.addEventListener('resize', this.getWindowWidth);
+            })
+        },
+        methods:{
+            next() {
+                this.$refs.slick.next();
+            },
+
+            prev() {
+                this.$refs.slick.prev();
+            },
+
+            getWindowWidth() {
+                if(document.body.offsetWidth<767){
+                    this.slickOptions.slidesToShow=1
+                    this.reInit();
+                }else{
+                    this.slickOptions.slidesToShow=4
+                    this.reInit();
+                }
+            },
+            reInit() {
+                this.$nextTick(() => {
+                    this.$refs.slick.reSlick();
+                    document.querySelector(".slick-next").innerHTML="<span class='mdi mdi-chevron-right'></span>";
+                    document.querySelector(".slick-prev").innerHTML="<span class='mdi mdi-chevron-left'></span>";
+                });
+            },
+
+        }
+    }
 </script>

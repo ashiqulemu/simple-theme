@@ -29,14 +29,9 @@
                                 </button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">
-                                    screenshot
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">
+                                <button class="nav-link"  @click="$root.scrollToElement('home-team')">
                                     team
-                                </a>
+                                </button>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-5"
