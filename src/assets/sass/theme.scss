@@ -300,6 +300,34 @@
     }
 
   }
+  .features-boxes{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .box{
+      flex-basis: 48%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+      background: #272727a6;
+      border-left: 2px solid #222223;
+      @include transition(0.4s);
+      &:hover{
+        border-left-color: $primary;
+      }
+      h5{
+          color: white;
+          letter-spacing: 1px;
+      }
+      p{
+        color: $text-cream;
+      }
+    }
+  }
+
 
 }
 

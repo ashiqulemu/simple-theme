@@ -1,9 +1,16 @@
 
-// full radius
 
-  @mixin borderRadius($property){
-    -webkit-border-radius: $property;
-    -moz-border-radius: $property;
-    border-radius: $property;
-  }
+    // full radius
+
+      @mixin borderRadius($property){
+        -webkit-border-radius: $property;
+        -moz-border-radius: $property;
+        border-radius: $property;
+      }
+
+    // transitions
+
+       @mixin transition($value){
+         transition: all $value ease;
+       }
 
