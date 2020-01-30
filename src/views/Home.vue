@@ -372,6 +372,56 @@
                 </div>
         </section>
 
+        <section class="price">
+            <div class="container ">
+                <div class="row section-shadow">
+                    <div class="col-md-12 ">
+                        <h2 class="section-title text-center text-primary">
+                            Price plan
+                        </h2>
+                        <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="price-box">
+                            <div class="topper">
+                             <h4>free plan </h4>
+                                <div class="month">
+                                    <span>$20</span>/<span>month</span>
+                                </div>
+                                <button class="get-now">Get it Now</button>
+                            </div>
+                            <div class="lower">
+                                <ul class="price-details">
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                    <li>
+                                        Lorem ipsum dolor sit amet,123.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </section>
+
     </div>
 </template>
 
