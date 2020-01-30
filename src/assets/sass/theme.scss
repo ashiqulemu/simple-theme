@@ -1,5 +1,6 @@
 @import 'color-variables';
 @import '../sass/mixins';
+@import '~slick-carousel/slick/slick';
 
 
 * {
@@ -76,6 +77,7 @@
 
 
 //================ close header css=======================//
+
 // slider section
 
 .home-slider {
@@ -172,7 +174,7 @@
 
   .sub-title {
     text-align: center;
-    color: $text-cream;
+    color: $text-color;
     padding-bottom: 20px;
   }
 
@@ -285,6 +287,9 @@
   @extend .about-us;
   background: $dark;
 
+  .sub-title{
+    color:$text-cream;
+  }
 
   .features-intro {
     padding: 20px;
@@ -329,6 +334,140 @@
   }
 
 
+}
+
+
+.our-team{
+  @extend .features;
+  background: $white;
+  .sub-title{
+    color: $text-color;
+  }
+  .team-box{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    max-width: 300px;
+    min-width: 300px;
+    border: 1px solid transparent;
+    @include transition(0.4s);
+    &:hover{
+     border: 1px solid #ececec;
+    }
+
+    .photo{
+      img{
+        width: 75%;
+        border-radius: 50%;
+        height: auto;
+        border: 10px inset $img-border;
+        margin: 0 auto;
+      }
+    }
+    .name{
+      font-size: 18px;
+      padding-top: 10px;
+      font-weight: bold;
+      text-align: center;
+      color:$secondary;
+      text-transform: capitalize;
+    }
+    .designation{
+      font-size: 14px;
+      text-align: center;
+      padding: 6px 0;
+      text-transform: capitalize;
+      font-weight: 500;
+      color:$secondary;
+    }
+    .details{
+      text-align: center;
+      padding: 0 15px;
+      color:$text-color;
+      height: 110px;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    .social{
+      ul{
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+           display: inline;
+          a{
+            padding: 2px;
+            font-size: 1.7rem;
+            margin: 0 3px;
+            span.mdi{
+             &:before{
+               @include transition(0.3s);
+             }
+            }
+            &:hover{
+              span.mdi{
+               &:before{
+                 transform: translateY(-3px);
+               }
+              }
+              opacity: 1;
+            }
+
+            opacity: 0.8;
+
+            &:nth-child(1){
+              color:$facebook;
+            }
+            &:nth-child(2){
+              color:$twitter;
+            }
+            &:nth-child(3){
+              color:$youtube;
+            }
+            &:nth-child(4){
+              color:$instagram;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.team-member-container{
+ padding: 50px 0;
+
+
+  .slick-list{
+    margin: 0 -1px;
+  }
+
+  [aria-label='Previous']{
+    position: absolute;
+    top:48%;
+    z-index: 10;
+    left: 0;
+  }
+  [aria-label='Next']{
+    position: absolute;
+    top:48%;
+    right: 0;
+    z-index: 10;
+  }
+  .slick-arrow{
+    padding: 0 5px;
+    outline: 0;
+    border: 0;
+    background: rgba($secondary,0.5);
+    color: #fff;
+    &:hover{
+      background: $secondary;
+    }
+    .mdi{
+      font-size: 2rem;
+    }
+  }
 }
 
 
