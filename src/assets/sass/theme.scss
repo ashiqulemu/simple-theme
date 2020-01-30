@@ -300,13 +300,14 @@
     }
 
   }
-  .features-boxes{
+
+  .features-boxes {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    .box{
+    .box {
       flex-basis: 48%;
       padding: 20px;
       display: flex;
@@ -315,14 +316,17 @@
       background: #272727a6;
       border-left: 2px solid #222223;
       @include transition(0.4s);
-      &:hover{
+
+      &:hover {
         border-left-color: $primary;
       }
-      h5{
-          color: white;
-          letter-spacing: 1px;
+
+      h5 {
+        color: white;
+        letter-spacing: 1px;
       }
-      p{
+
+      p {
         color: $text-cream;
       }
     }
@@ -365,6 +369,20 @@
 
     .employee-details {
       color: #999;
+      height: 90px;
+      overflow-y: auto;
+      padding: 0 10px;
+
+      &::-webkit-scrollbar {
+        width: 1px;
+        background: #ffffff;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        width: 1px;
+        background-color: rgba(193, 193, 193, 0.4);
+      }
+
     }
 
     .employee-image {
@@ -954,15 +972,14 @@
 
 //this scss codes are written for coming-soon page
 .pointed-area {
-  width: 900px;
-  margin: 200px auto;
+  padding: 100px 0;
 
   .coming-soon-area {
-    width: 420px;
-    float: left;
+    display: flex;
 
     .coming-soon {
       text-align: center;
+
 
       .title-and-msg {
         img {
@@ -980,6 +997,8 @@
       }
 
       .coming-timer {
+        display: flex;
+        justify-content: center;
         color: $primary;
         margin-top: 50px;
 
@@ -1201,8 +1220,8 @@
       background-size: 50% 50%, 50% 50%;
       background-position: 0 0, 100% 0, 100% 100%, 0 100%;
       background-image: linear-gradient(#0A00FE, #4d4fff),
-      linear-gradient(#979eff,#4d4fff ),
-      linear-gradient( #4d4fff,#0A00FE),
+      linear-gradient(#979eff, #4d4fff),
+      linear-gradient(#4d4fff, #0A00FE),
       linear-gradient(#4d4fff, #979eff);
       animation: rotate 4s linear infinite;
     }

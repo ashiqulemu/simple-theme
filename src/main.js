@@ -10,7 +10,22 @@ import './assets/sass/juhurul.scss'
 import '@mdi/font/css/materialdesignicons.css'
 // Theme partial scss
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+Vue.filter('truncate', function (value, limit) {
+    if (value.length > limit) {
+        value = value.substring(0, (limit - 3)) + '...';
+    }
+
+    return value
+})
+Vue.filter('two_digits', function (value) {
+    if(value.toString().length <= 1)
+    {
+        return "0"+value.toString();
+    }
+    return value.toString();
+});
 
 new Vue({
     router,

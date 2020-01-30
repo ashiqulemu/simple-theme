@@ -69,9 +69,8 @@
                                 <i class="mdi mdi-star"></i>
                             </div>
                             <div class="employee-details">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                                </p>
                             </div>
                         </div>
                     </div>
