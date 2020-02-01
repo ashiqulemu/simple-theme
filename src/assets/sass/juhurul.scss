@@ -3,29 +3,38 @@
 
 //====Footer Here======
 
-.footer-content{
+.footer{
+
+  background: darken($bg-social1,22%);
+
+  .lead{
+    color:lighten($nav-link, 30%);
+    font-weight: bold;
+  }
+
+  .info{
+    color: rgba($white,0.7);
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+    //box-shadow: -9px -3px 12px -8px  $secondary;
+  }
 
   .company-contact{
     .contact-icon{
       height: 40px;
       width: 40px;
-      color: darken($secondary, 15%);
+      color: $primary;
       font-size: 24px;
-      box-shadow: -9px 7px 12px -8px  $secondary;
+      //box-shadow: -9px 7px 12px -8px darken($primary,70%);
       padding-left: 10px;
     }
 
-    P{
-      color: rgba($white,0.7);
-      font-size: 18px;
-      margin-bottom: 0 !important;
-      margin-top: 3px;
-      margin-left: 10px;
-      padding-left: 10px;
-      text-align: left;
-      box-shadow: -9px -3px 12px -8px  $secondary;
-    }
   }
+
 
   .company-media{
 
@@ -33,28 +42,20 @@
       margin-top: 50px;
     }
 
-    .lead{
-      font-weight: bold;
-      color: rgba($white,0.8);
-    }
-    P{
-      color: rgba($white,0.7);
-      font-size: 18px;
-      text-align: left;
-    }
-
     .icon-section{
-      box-shadow: -9px -3px 12px -8px  $secondary;
+      //box-shadow: -9px -3px 12px -8px  darken($primary,70%);
+      justify-content: center;
 
       .media-icon{
         height: 35px;
         width: 35px;
         font-size: 22px;
         color: $secondary;
-        margin-left: 20px;
+        margin-right: 20px;
         border-radius: 5px;
         border: none;
         text-align: center;
+
 
         &:hover{
           background: rgba($secondary, 0.8);
