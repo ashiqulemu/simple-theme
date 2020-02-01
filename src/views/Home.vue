@@ -372,7 +372,7 @@
                 </div>
         </section>
 
-        <section class="price">
+        <section class="price home-price">
             <div class="container ">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
@@ -383,10 +383,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mx-auto">
                         <div class="price-box">
                             <div class="topper">
-                             <h4>free plan </h4>
+                             <h4>basic plan </h4>
                                 <div class="month">
                                     <span>$20</span>/<span>month</span>
                                 </div>
@@ -395,29 +395,93 @@
                             <div class="lower">
                                 <ul class="price-details">
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                        <span>Email marketing</span>
                                     </li>
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                       Email builder
                                     </li>
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                       client testing
                                     </li>
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                       multiple email support
                                     </li>
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                        email read receipent
                                     </li>
                                     <li>
-                                        Lorem ipsum dolor sit amet,123.
+                                        2 user free
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="price-box focus">
+                            <div class="topper">
+                                <h4>standard plan </h4>
+                                <div class="month">
+                                    <span>$50</span>/<span>month</span>
+                                </div>
+                                <button class="get-now">Get it Now</button>
+                            </div>
+                            <div class="lower">
+                                <ul class="price-details">
+                                    <li>
+                                        <span>Email marketing</span>
+                                    </li>
+                                    <li>
+                                        Email builder
+                                    </li>
+                                    <li>
+                                        client testing
+                                    </li>
+                                    <li>
+                                        multiple email support
+                                    </li>
+                                    <li>
+                                        email read receipent
+                                    </li>
+                                    <li>
+                                        2 user free
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="price-box">
+                            <div class="topper">
+                                <h4>ultimate plan </h4>
+                                <div class="month">
+                                    <span>$20</span>/<span>month</span>
+                                </div>
+                                <button class="get-now">Get it Now</button>
+                            </div>
+                            <div class="lower">
+                                <ul class="price-details">
+                                    <li>
+                                        <span>Email marketing</span>
+                                    </li>
+                                    <li>
+                                        Email builder
+                                    </li>
+                                    <li>
+                                        client testing
+                                    </li>
+                                    <li>
+                                        multiple email support
+                                    </li>
+                                    <li>
+                                        email read receipent
+                                    </li>
+                                    <li>
+                                        2 user free
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
