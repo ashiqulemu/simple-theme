@@ -151,6 +151,10 @@
 .contact-us{
   margin-bottom: 437px;
   background: $white;
+
+  input, textarea{
+    border-radius: 0;
+  }
 }
 
 
