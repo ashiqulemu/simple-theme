@@ -18,7 +18,7 @@
       width: 40px;
       color: $primary;
       font-size: 24px;
-      box-shadow: -9px 7px 12px -8px darken($primary,70%);
+      //box-shadow: -9px 7px 12px -8px darken($primary,70%);
       padding-left: 10px;
     }
 
@@ -42,7 +42,7 @@
     }
 
     .icon-section{
-      box-shadow: -9px -3px 12px -8px  darken($primary,70%);
+      //box-shadow: -9px -3px 12px -8px  darken($primary,70%);
       justify-content: center;
 
       .media-icon{
