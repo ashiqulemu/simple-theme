@@ -3,13 +3,24 @@
 
 //====Footer Here======
 
-.footer-content{
+.footer{
 
   background: darken($bg-social1,22%);
 
   .lead{
     color:lighten($nav-link, 30%);
     font-weight: bold;
+  }
+
+  .info{
+    color: rgba($white,0.7);
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: left;
+    //box-shadow: -9px -3px 12px -8px  $secondary;
   }
 
   .company-contact{
@@ -22,16 +33,6 @@
       padding-left: 10px;
     }
 
-    .info{
-      color: rgba($white,0.7);
-      font-size: 18px;
-      margin-bottom: 0 !important;
-      margin-top: 3px;
-      margin-left: 10px;
-      padding-left: 10px;
-      text-align: left;
-      //box-shadow: -9px -3px 12px -8px  $secondary;
-    }
   }
 
 
@@ -50,7 +51,7 @@
         width: 35px;
         font-size: 22px;
         color: $secondary;
-        margin-left: 20px;
+        margin-right: 20px;
         border-radius: 5px;
         border: none;
         text-align: center;

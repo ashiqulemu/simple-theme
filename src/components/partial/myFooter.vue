@@ -1,38 +1,25 @@
 <template>
-    <div class="footer-content">
+    <div class="footer">
         <div class="container">
             <div class="row py-3">
 
-                <div class="col-md-4 company-contact">
-                    <p class="lead">Contact</p>
-                    <div class="d-flex">
-                        <i class="mdi mdi-map-marker contact-icon"></i>
-                        <p class="info">Jashore, Khulna, Bangladesh</p>
-                    </div>
-                    <div class="d-flex">
-                        <i class="mdi mdi-phone contact-icon"></i>
-                        <p class="info">0098230483242</p>
-                    </div>
-                    <div class="d-flex">
-                        <i class="mdi mdi-email contact-icon"></i>
-                        <p class="info">mdit@gmail.com</p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 information">
-                    <div class="lead">Information</div>
-                    <div class="info-link d-flex flex-column mt-2">
-                        <a href="">About Us</a>
-                        <a href="">Blog</a>
-                        <a href="">Faq</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="lead">Support</div>
+                <div class="footer-top">
                     <div>
+                        <p>
+                            BE THE FIRS TO KNOW
+                        </p>
+                        <P>
+                            Get all the latest information on Events, Sales and Offers.
+                            <br>
 
+                        </P>
                     </div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="footer-header">
+
                 </div>
 
                 <div class="col-12 company-media mt-1">
