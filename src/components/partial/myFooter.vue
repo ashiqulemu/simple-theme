@@ -11,7 +11,7 @@
                         <P>
                             Get all the latest information on Events, Sales and Offers.
                             <br>
-
+                            Sign up for newsletter today.
                         </P>
                     </div>
                     <div></div>
