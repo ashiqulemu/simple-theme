@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 footer-top d-flex justify-content-between flex-wrap">
+                <div class="col-12 footer-top d-flex align-items-center justify-content-between flex-wrap">
                     <div class="intro">
                         <p>
                             BE THE FIRS TO KNOW
@@ -15,17 +15,28 @@
                     </div>
                     <div class="subscribe">
                         <div>
-                            <div class="form-group d-flex align-items-center ">
-                                <input type="email" class="form-control radius-0" placeholder="Enter email">
-                                <button class="btn btn-dark text-uppercase radius-0 h-100">subscribe</button>
+                            <div class="form-group mb-0 d-flex align-items-center ">
+                                <input type="email" class="border-0 form-control radius-0" placeholder="Enter email">
+                                <button class="btn btn-primary text-uppercase radius-0 h-100">subscribe</button>
                             </div>
                         </div>
                     </div>
                     <div class="media-icon">
-                        <button class="mdi mdi-facebook icon"></button>
-                        <button class="mdi mdi-twitter icon"></button>
-                        <button class="mdi mdi-linkedin icon"></button>
-                        <button class="mdi mdi-github-circle icon"></button>
+                        <a href="">
+                            <span class="mdi mdi-facebook"></span>
+                        </a>
+                        <a href="">
+                            <span class="mdi mdi-youtube"></span>
+                        </a>
+                        <a href="">
+                            <span class="mdi mdi-twitter"></span>
+                        </a>
+                        <a href="">
+                            <span class="mdi mdi-instagram"></span>
+                        </a>
+                        <a href="">
+                            <span class="mdi mdi-google-plus"></span>
+                        </a>
                     </div>
                 </div>
 
@@ -36,7 +47,7 @@
                             <div class="col-data">
                                     <div class="items">
                                         <p class="title">ADDRESS</p>
-                                        <p class="text-capitalize">bangladesh</p>
+                                        <p class="text-capitalize">123, Your Address</p>
                                     </div>
 
                                 <div class="items">
