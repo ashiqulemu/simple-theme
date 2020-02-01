@@ -164,7 +164,7 @@
 // about us section
 
 .about-us {
-  padding: 45px 0;
+  padding:60px 0;
 
   .section-title {
     text-align: center;
@@ -344,6 +344,7 @@
 
 }
 
+//Team
 
 .our-team{
   @extend .features;
@@ -475,6 +476,60 @@
       font-size: 2rem;
     }
   }
+}
+
+.price{
+  @extend .our-team;
+   .price-box{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     min-height: 300px;
+     .topper{
+       background:$price-topper;
+       flex:1;
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 20px;
+       align-items: center;
+       h4{
+         text-align: center;
+         text-transform: uppercase;
+         padding: 12px 0;
+         background: #303d50;
+         color: #efefef;
+         width: 100%;
+       }
+       .month{
+         padding: 10px 0;
+         text-align: center;
+         font-size: 3rem;
+         text-transform: capitalize;
+         color: white;
+         span{
+           &:last-child{
+             font-size: 1rem;
+             color: #007bff;
+           }
+         }
+       }
+       .get-now{
+         background: #0000001f;
+         border: 1px solid #2f3f61;
+         padding: 7px 16px;
+         width: 80%;
+         color: $yellow;
+       }
+     }
+     .lower{
+       background: $text-cream;
+       flex:1;
+        .price-details{
+          list-style-type: none;
+          padding: 15px;
+        }
+     }
+   }
 }
 
 
