@@ -382,8 +382,8 @@
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 mx-auto">
+                <div class="row mt-4">
+                    <div class="col-md-4">
                         <div class="price-box">
                             <div class="topper">
                              <h4>basic plan </h4>
@@ -416,7 +416,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mx-auto">
+                    <div class="col-md-4">
                         <div class="price-box focus">
                             <div class="topper">
                                 <h4>standard plan </h4>
@@ -449,7 +449,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mx-auto">
+                    <div class="col-md-4">
                         <div class="price-box">
                             <div class="topper">
                                 <h4>ultimate plan </h4>
