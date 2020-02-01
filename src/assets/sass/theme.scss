@@ -164,7 +164,9 @@
 
 .about-us {
   padding:70px 0;
-
+  background: $white;
+  position: relative;
+  z-index: 1;
   .section-title {
     text-align: center;
     text-transform: uppercase;
@@ -488,6 +490,10 @@
   @extend .our-team;
   background: $price-bg;
   padding: 70px 0;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 437px;
+  border-bottom: 5px solid rgba($text-grey,0.5);
   .sub-title{
     color:$text-cream;
   }

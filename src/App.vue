@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <my-header/>
-        <router-view style="padding-top:55px"/>
+        <router-view/>
         <my-footer/>
     </div>
 </template>
