@@ -496,11 +496,11 @@
                         laboriosam.</p>
                 </div>
                 <div class="row pt-4">
-                    <div class="col-md-6 manual-contact">
-                        Google Map
+                    <div class="col-md-6 map">
+                        Google Map here
                     </div>
 
-                    <div class="col-md-6 form-contact">
+                    <div class="col-md-6 mail-contact">
 
                         <form action="" class="form-group">
                             <input type="text" class="form-control" placeholder="Name">
