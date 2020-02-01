@@ -486,6 +486,38 @@
             </div>
         </section>
 
+
+
+        <section class="contact-us">
+            <div class="container">
+                <div>
+                    <p>Contact</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 manual-contact">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem dolor doloribus dolorum
+                            laboriosam libero maxime mollitia nesciunt nostrum sapiente.</p>
+                        <div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 form-contact">
+                        <p class="mb-3">OR</p>
+                        <form action="" class="form-group">
+                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="email" class="form-control my-3" placeholder="Email">
+                            <textarea class="form-control" ></textarea>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
     </div>
 </template>
 
