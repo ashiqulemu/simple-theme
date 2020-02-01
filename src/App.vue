@@ -2,7 +2,7 @@
     <div id="app">
         <top-bar/>
         <my-header/>
-        <router-view style="padding-top:55px"/>
+        <router-view/>
         <my-footer/>
     </div>
 </template>

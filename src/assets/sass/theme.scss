@@ -164,7 +164,9 @@
 
 .about-us {
   padding:70px 0;
-
+  background: $white;
+  position: relative;
+  z-index: 1;
   .section-title {
     text-align: center;
     text-transform: uppercase;
@@ -488,6 +490,10 @@
   @extend .our-team;
   background: $price-bg;
   padding: 70px 0;
+  z-index: 2;
+  position: relative;
+  margin-bottom: 437px;
+  border-bottom: 5px solid rgba($text-grey,0.5);
   .sub-title{
     color:$text-cream;
   }
@@ -891,7 +897,7 @@
       }
 
       .mdi-heart {
-        color: #9b59b6;
+        color: #b60939;
       }
 
       .mdi-share {
@@ -957,7 +963,7 @@
         }
 
         .mdi-heart {
-          color: #9b59b6;
+          color: #b60939;
         }
 
         .mdi-share {
@@ -1043,7 +1049,7 @@
       color: #256cff;
       border-top: 1px solid #ced4da6b;
       border-bottom: 1px solid #ced4da85;
-      padding: 6px;
+      padding: 12px;
     }
 
     .category-list {
@@ -1053,37 +1059,42 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px 15px;
+        padding:9px 15px;
+        font-weight: 500;
         color: $bg-social1;
         text-decoration: none;
         font-size: 14px;
-
+        border-left: 3px solid transparent;
+        @include transition(0.4s);
         &:hover {
-          padding: 5px 10px;
-          border-left: 5px solid $primary;
-          font-weight: bold;
-          background: #e7eaed;
+          border-left: 3px solid $secondary;
+          background: rgba($primary,0.03);
         }
       }
 
       ul {
-
         font-size: 12px;
+        background: rgba($secondary,0.03);
+        padding: 10px;
 
         li {
-          padding: 2px 30px;
           list-style: none;
-
           a {
-            color: $secondary;
+            color: #283A70;
+            padding: 6px 10px;
+            display: block;
+            text-transform: capitalize;
+            font-weight: 500;
+            border-left: 3px solid transparent;
+            font-weight: bold;
+            @include transition(0.4s);
+            &:hover {
+              border-left:3px solid $secondary;
+              background: #e7eaed;
+            }
           }
 
-          &:hover {
-            padding: 2px 25px;
-            border-left: 5px solid $secondary;
-            font-weight: bold;
-            background: #e7eaed;
-          }
+
 
           a {
             text-decoration: none;
@@ -1105,26 +1116,22 @@
     }
 
     .post-box {
-      padding: 10px 0;
-
+      padding: 13px;
       .item {
         padding: 5px 15px;
         font-size: 14px;
-        width: 95%;
+        width: 100%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-
-        &:hover {
-          padding: 5px 10px;
-          border-left: 5px solid $primary;
-          font-weight: bold;
-          background: #e7eaed;
-        }
+        @include transition(0.4s);
 
         a {
           text-decoration: none;
           color: $secondary;
+          &:hover {
+            color:$primary;
+          }
         }
       }
     }

@@ -44,7 +44,23 @@
     $price-color:#c1c1c1;
     $light-green:#28a745;
 
+
+  // footer
+
+  $text-grey:grey;
+  $footer-col:#77a6ea;
+  $footer-text:#8c9fb3;
+
+
   //======================== Helper classes =====================
+
+  .text-bold{
+    font-weight: bold;
+  }
+
+  .radius-0{
+    border-radius: 0;
+  }
 
   .section-shadow{
     box-shadow:-3px 26px 27px -42px #0000006e;

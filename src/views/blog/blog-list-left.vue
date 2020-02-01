@@ -30,9 +30,9 @@
                                 <i class="mdi mdi-chevron-right"></i>
                             </a>
                             <ul id="submenu-1" class="collapse">
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.2</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 1.3</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 1.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 1.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 1.3</a></li>
                             </ul>
                         </li>
                         <li>
@@ -44,9 +44,9 @@
                                 <i class="mdi mdi-chevron-right"></i>
                             </a>
                             <ul id="submenu-2" class="collapse">
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.3</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 2.1</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 2.2</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i> submenu 2.3</a></li>
                             </ul>
                         </li>
                         <li>
