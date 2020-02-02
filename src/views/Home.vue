@@ -22,6 +22,7 @@
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section class="about-us home-about" id="about-us">
@@ -51,7 +52,8 @@
                                 <div class="box-details">
                                     <h6>Strategy</h6>
                                     <p> The definition of business strategy is a long term plan of action designed to
-                                        achieve a particular goal or set of goals or objectives. Strategy is management's
+                                        achieve a particular goal or set of goals or objectives. Strategy is
+                                        management's
                                         game plan for strengthening the performance of the enterprise. It states how
                                         business should be conducted to achieve the desired goals. </p>
 
@@ -66,7 +68,8 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Creative</h6>
-                                    <p> Creative person - a person whose creative work shows sensitivity and imagination.
+                                    <p> Creative person - a person whose creative work shows sensitivity and
+                                        imagination.
                                         artist. creator - a person who grows or makes or invents things. illustrator -
                                         an artist who makes illustrations (for books or magazines or advertisements
                                         etc.) </p>
@@ -129,46 +132,46 @@
                     </div>
                     <div class="col-md-8">
                         <div class="features-boxes">
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
-                                    <p>
-                                        Similique sunt in culpa qui officia deserunt mollitia animi.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-update text-primary"></span> Quick Update</h5>
-                                    <p>
-                                        Et harum quidem rerum facilis est et expedita distinctio.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
-                                    <p>
-                                        Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-                                        quo minus id quod maxime placeat facere possimus.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
-                                    <p>
-                                        Omnis voluptas assumenda est, omnis dolor repellendus.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
-                                    <p>
-                                        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
-                                        saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
-                                    </p>
-                                </div>
-                                <div class="box">
-                                    <h5> <span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
-                                    <p>
-                                        Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-                                        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
-                                        repellat.
-                                    </p>
-                                </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
+                                <p>
+                                    Similique sunt in culpa qui officia deserunt mollitia animi.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-update text-primary"></span> Quick Update</h5>
+                                <p>
+                                    Et harum quidem rerum facilis est et expedita distinctio.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
+                                <p>
+                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+                                    quo minus id quod maxime placeat facere possimus.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
+                                <p>
+                                    Omnis voluptas assumenda est, omnis dolor repellendus.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
+                                <p>
+                                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                                    saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                                </p>
+                            </div>
+                            <div class="box">
+                                <h5><span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
+                                <p>
+                                    Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                                    voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+                                    repellat.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -176,200 +179,200 @@
         </section>
 
         <section class="our-team home-team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 section-shadow">
-                            <h2 class="section-title text-center">
-                                Our Team
-                            </h2>
-                            <p class="sub-title">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit Accusantium
-                            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-shadow">
+                        <h2 class="section-title text-center">
+                            Our Team
+                        </h2>
+                        <p class="sub-title">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit Accusantium
+                        </p>
+                    </div>
+                </div>
+                <slick ref="slick" class="team-member-container" :options="slickOptions">
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
+                        </div>
+                        <div class="name">
+                            john caramoi
+                        </div>
+                        <div class="designation">
+                            CEO
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <slick  ref="slick" class="team-member-container" :options="slickOptions">
-                        <div class="team-box">
-                            <div class="photo">
-                                <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
-                            </div>
-                            <div class="name">
-                                john caramoi
-                            </div>
-                            <div class="designation">
-                                CEO
-                            </div>
-                            <div class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
-                                enim illo illum iste
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Facebook">
-                                            <span class="mdi mdi-facebook-box"></span>
-                                        </a>
-                                        <a href="#" title="Twitter">
-                                            <span class="mdi mdi-twitter-box"></span>
-                                        </a>
-                                        <a href="#" title="Youtube">
-                                            <span class="mdi mdi-youtube"></span>
-                                        </a>
-                                        <a href="#" title="Instagram">
-                                            <span class="mdi mdi-instagram"></span>
-                                        </a>
-                                        <a href="#" title="Google Plus">
-                                            <span class="mdi mdi-google-plus"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
                         </div>
-                        <div class="team-box">
-                            <div class="photo">
-                                <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
-                            </div>
-                            <div class="name">
-                                mark harison
-                            </div>
-                            <div class="designation">
-                                managing director
-                            </div>
-                            <div class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
-                                enim illo illum iste
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Facebook">
-                                            <span class="mdi mdi-facebook-box"></span>
-                                        </a>
-                                        <a href="#" title="Twitter">
-                                            <span class="mdi mdi-twitter-box"></span>
-                                        </a>
-                                        <a href="#" title="Youtube">
-                                            <span class="mdi mdi-youtube"></span>
-                                        </a>
-                                        <a href="#" title="Instagram">
-                                            <span class="mdi mdi-instagram"></span>
-                                        </a>
-                                        <a href="#" title="Google Plus">
-                                            <span class="mdi mdi-google-plus"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="name">
+                            mark harison
                         </div>
-                        <div class="team-box">
-                            <div class="photo">
-                                <img src="../assets/images/themes/team-members/3.jpg" alt="team-photo">
-                            </div>
-                            <div class="name">
-                               Jemmy koala
-                            </div>
-                            <div class="designation">
-                                programmer
-                            </div>
-                            <div class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
-                                enim illo illum iste
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Facebook">
-                                            <span class="mdi mdi-facebook-box"></span>
-                                        </a>
-                                        <a href="#" title="Twitter">
-                                            <span class="mdi mdi-twitter-box"></span>
-                                        </a>
-                                        <a href="#" title="Youtube">
-                                            <span class="mdi mdi-youtube"></span>
-                                        </a>
-                                        <a href="#" title="Instagram">
-                                            <span class="mdi mdi-instagram"></span>
-                                        </a>
-                                        <a href="#" title="Google Plus">
-                                            <span class="mdi mdi-google-plus"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="designation">
+                            managing director
                         </div>
-                        <div class="team-box">
-                            <div class="photo">
-                                <img src="../assets/images/themes/team-members/4.jpg" alt="team-photo">
-                            </div>
-                            <div class="name">
-                               penal Lomix
-                            </div>
-                            <div class="designation">
-                                Director
-                            </div>
-                            <div class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
-                                enim illo illum iste
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Facebook">
-                                            <span class="mdi mdi-facebook-box"></span>
-                                        </a>
-                                        <a href="#" title="Twitter">
-                                            <span class="mdi mdi-twitter-box"></span>
-                                        </a>
-                                        <a href="#" title="Youtube">
-                                            <span class="mdi mdi-youtube"></span>
-                                        </a>
-                                        <a href="#" title="Instagram">
-                                            <span class="mdi mdi-instagram"></span>
-                                        </a>
-                                        <a href="#" title="Google Plus">
-                                            <span class="mdi mdi-google-plus"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
                         </div>
-                        <div class="team-box">
-                            <div class="photo">
-                                <img src="../assets/images/themes/team-members/5.jpg" alt="team-photo">
-                            </div>
-                            <div class="name">
-                               Arbaz Maxi
-                            </div>
-                            <div class="designation">
-                                Project manager
-                            </div>
-                            <div class="details">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
-                                enim illo illum iste
-                            </div>
-                            <div class="social">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Facebook">
-                                            <span class="mdi mdi-facebook-box"></span>
-                                        </a>
-                                        <a href="#" title="Twitter">
-                                            <span class="mdi mdi-twitter-box"></span>
-                                        </a>
-                                        <a href="#" title="Youtube">
-                                            <span class="mdi mdi-youtube"></span>
-                                        </a>
-                                        <a href="#" title="Instagram">
-                                            <span class="mdi mdi-instagram"></span>
-                                        </a>
-                                        <a href="#" title="Google Plus">
-                                            <span class="mdi mdi-google-plus"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                    </slick>
-                </div>
+                    </div>
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/3.jpg" alt="team-photo">
+                        </div>
+                        <div class="name">
+                            Jemmy koala
+                        </div>
+                        <div class="designation">
+                            programmer
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/4.jpg" alt="team-photo">
+                        </div>
+                        <div class="name">
+                            penal Lomix
+                        </div>
+                        <div class="designation">
+                            Director
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/5.jpg" alt="team-photo">
+                        </div>
+                        <div class="name">
+                            Arbaz Maxi
+                        </div>
+                        <div class="designation">
+                            Project manager
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </slick>
+            </div>
         </section>
 
         <section class="price home-price">
@@ -386,7 +389,7 @@
                     <div class="col-md-4">
                         <div class="price-box">
                             <div class="topper">
-                             <h4>basic plan </h4>
+                                <h4>basic plan </h4>
                                 <div class="month">
                                     <span>$20</span>/<span>month</span>
                                 </div>
@@ -398,13 +401,13 @@
                                         <span>Email marketing</span>
                                     </li>
                                     <li>
-                                       Email builder
+                                        Email builder
                                     </li>
                                     <li>
-                                       client testing
+                                        client testing
                                     </li>
                                     <li>
-                                       multiple email support
+                                        multiple email support
                                     </li>
                                     <li>
                                         email read receipent
@@ -487,27 +490,36 @@
         </section>
 
 
+        <section class="contact-us home-contact">
 
-        <section class="contact-us p-5">
             <div class="container">
-                <div class="title-section">
-                    <h2 class="title text-center">Contact</h2>
-                    <p class="sub-title text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem dolor doloribus dolorum
-                        laboriosam.</p>
+                <div class="row section-shadow">
+                    <div class="col-md-12 ">
+                        <h2 class="section-title text-center text-primary">
+                            Contact us
+                        </h2>
+                        <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
+                    </div>
                 </div>
-                <div class="row pt-4">
-                    <div class="col-md-6 map">
-                        Google Map here
+
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4111736868135!2d89.54895711484657!3d22.824272429437933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900834703c71%3A0x8f9dc823c122d0d!2sNew%20Market%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1580622374990!5m2!1sen!2sbd" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
                     </div>
 
-                    <div class="col-md-6 mail-contact">
-
-                        <form action="" class="form">
-                            <input type="text" class="form-control" placeholder="Name">
-                            <input type="email" class="form-control" placeholder="Email">
-                            <textarea class="form-control" placeholder="Write message...."></textarea>
-                            <input type="button" class="btn btn-success btn-block" value="SUBMIT">
-                        </form>
+                    <div class="col-md-6 pt-4 py-4">
+                        <div class=" mail-contact">
+                            <h5>We are here !   send us a message</h5>
+                            <hr>
+                            <form action="" class="form pt-4">
+                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <textarea class="form-control" placeholder="Write message...."></textarea>
+                                <input type="button" class="btn btn-secondary btn-block" value="SUBMIT">
+                            </form>
+                        </div>
 
                     </div>
                 </div>
@@ -516,15 +528,15 @@
         </section>
 
 
-
     </div>
 </template>
 
 <script>
     import Slick from 'vue-slick';
+
     export default {
 
-        components: { Slick },
+        components: {Slick},
 
         data() {
             return {
@@ -533,15 +545,15 @@
                 },
             };
         },
-        created(){
+        created() {
             this.getWindowWidth()
         },
-        mounted(){
-            this.$nextTick(function() {
+        mounted() {
+            this.$nextTick(function () {
                 window.addEventListener('resize', this.getWindowWidth);
             })
         },
-        methods:{
+        methods: {
             next() {
                 this.$refs.slick.next();
             },
@@ -551,24 +563,24 @@
             },
 
             getWindowWidth() {
-                if(document.body.offsetWidth<769 && document.body.offsetWidth>426){
-                    this.slickOptions.slidesToShow=2
+                if (document.body.offsetWidth < 769 && document.body.offsetWidth > 426) {
+                    this.slickOptions.slidesToShow = 2
                     this.reInit();
                 }
-                else if(document.body.offsetWidth<426){
-                    this.slickOptions.slidesToShow=1
+                else if (document.body.offsetWidth < 426) {
+                    this.slickOptions.slidesToShow = 1
                     this.reInit();
                 }
-                else{
-                    this.slickOptions.slidesToShow=4
+                else {
+                    this.slickOptions.slidesToShow = 4
                     this.reInit();
                 }
             },
             reInit() {
                 this.$nextTick(() => {
                     this.$refs.slick.reSlick();
-                    document.querySelector(".slick-next").innerHTML="<span class='mdi mdi-chevron-right'></span>";
-                    document.querySelector(".slick-prev").innerHTML="<span class='mdi mdi-chevron-left'></span>";
+                    document.querySelector(".slick-next").innerHTML = "<span class='mdi mdi-chevron-right'></span>";
+                    document.querySelector(".slick-prev").innerHTML = "<span class='mdi mdi-chevron-left'></span>";
                 });
             },
 

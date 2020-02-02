@@ -82,9 +82,9 @@
                                 </button>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">
+                                <button class="nav-link" @click="$root.scrollToElement('home-contact')">
                                     contact us
-                                </a>
+                                </button>
                             </li>
 
                             <li class="nav-item dropdown">

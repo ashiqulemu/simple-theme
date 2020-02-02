@@ -17,6 +17,7 @@
   $text-cream:#b2bfc5;
   $white:#fff;
   $img-border:#256cff1c;
+  $text-default:#495057;
 
 
 
@@ -77,6 +78,13 @@
   }
   .bg-social-2{
     background: $bg-social2;
+  }
+  .btn-secondary{
+    background:$secondary;
+  }
+
+  .text-default{
+    color:$text-default;
   }
 
   .btn-global{

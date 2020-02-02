@@ -1,5 +1,6 @@
 <template>
-    <div class="container">
+    <section class="blg-details">
+       <div class="container">
        <div class="btn-group blog-btn-group"
              role="group" >
             <router-link :to="{name:'blogDetailsLeft'}" class="blog-link">Left Sidebar</router-link>
@@ -268,6 +269,7 @@
         </div>
 
     </div>
+    </section>
 </template>
 <script>
     export default {

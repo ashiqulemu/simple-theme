@@ -1,7 +1,15 @@
 <template>
-    <div>
-        <div class="container my-5">
-            <div class="row faq">
+    <section class="faq-question">
+        <div class="container  faq ">
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <h3 class="text-primary text-capitalize">Frequently asked questions</h3>
+                    <p class="text-default">Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Alias assumenda consectetur consequuntur, deleniti, iusto
+                        perferendis perspiciatis quisquam rem rerum sint ullam ut voluptas voluptate! Accusamus?</p>
+                </div>
+            </div>
+            <div class="row mt-5">
                 <div class="col-md-6">
                      <div class="card">
                         <div class="card-content">
@@ -150,10 +158,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

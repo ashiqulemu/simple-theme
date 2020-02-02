@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" >
         <my-header/>
         <router-view/>
         <my-footer/>
@@ -13,6 +13,7 @@
     export default {
         components: {
             myFooter, myHeader,
-        }
+        },
+
     }
 </script>

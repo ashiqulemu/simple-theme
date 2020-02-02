@@ -1,4 +1,5 @@
 <template>
+    <section class="blg-details">
     <div class="container">
         <div class="btn-group blog-btn-group"
              role="group">
@@ -474,6 +475,7 @@
 
 
     </div>
+    </section>
 </template>
 
 <script>

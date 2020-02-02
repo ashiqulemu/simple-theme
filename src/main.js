@@ -18,6 +18,7 @@ new Vue({
     router,
     store,
     render: h => h(App),
+
     methods: {
 
         scrollToElement(divClass) {
@@ -26,16 +27,21 @@ new Vue({
             }
             const el = this.$el.getElementsByClassName(divClass)[0];
             if (el) {
-                el.scrollIntoView({behavior: 'smooth', block: 'start'});
+                el.scrollIntoView(true);
+                window.scroll({top:window.scrollY - 60,behavior: "smooth"});
+
             }
 
 
-        }
+        },
+
+
     },
 
     mounted(){
 
     },
+
 
 
 }).$mount('#app')

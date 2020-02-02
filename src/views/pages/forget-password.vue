@@ -1,7 +1,7 @@
 <template>
     <div class="auth-form">
         <div class="container-box">
-            <div class="md-title">
+            <div class="md-title mt-5">
                 Reset Your Password
             </div>
             <div class="card">
