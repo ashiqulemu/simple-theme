@@ -502,11 +502,11 @@
 
                     <div class="col-md-6 mail-contact">
 
-                        <form action="" class="form-group">
+                        <form action="" class="form">
                             <input type="text" class="form-control" placeholder="Name">
-                            <input type="email" class="form-control my-3" placeholder="Email">
+                            <input type="email" class="form-control" placeholder="Email">
                             <textarea class="form-control" placeholder="Write message...."></textarea>
-                            <input type="button" class="btn btn-success btn-block mt-3" value="SUBMIT">
+                            <input type="button" class="btn btn-success btn-block" value="SUBMIT">
                         </form>
 
                     </div>
