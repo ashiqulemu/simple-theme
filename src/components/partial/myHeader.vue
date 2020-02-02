@@ -4,26 +4,28 @@
             <div class="top-bar">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-dark">
-                        <div class="d-flex">
-                            <div class="contact d-flex">
-                                <p><i class="mdi mdi-phone"></i> +01934534534</p>
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                            <div class="contact d-flex py-2">
+                                <small class="p-0 m-0 text-white"> Need Help?  <a href="#" class="text-white"> 012-345-6789 </a></small>
                             </div>
-
                             <div>
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a href="" class="nav-link">Link1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="" class="nav-link">Link2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="" class="nav-link">Link3</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="" class="nav-link">Link4</a>
-                                    </li>
-                                </ul>
+                                <div class="media-icon">
+                                    <a href="">
+                                        <span class="mdi mdi-facebook"></span>
+                                    </a>
+                                    <a href="">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="">
+                                        <span class="mdi mdi-twitter"></span>
+                                    </a>
+                                    <a href="">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
