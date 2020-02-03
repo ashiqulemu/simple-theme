@@ -39,6 +39,8 @@
   }
 }
 
+
+
 .nav-user-define {
   .navbar-nav {
     .nav-item {
@@ -60,6 +62,16 @@
         &.active {
           background: $nav-hover;
           outline: 1px solid $outline;
+        }
+        &:focus{
+          background: $secondary;
+          outline: 0;
+        }
+        @media(max-width:768px){
+          &:focus{
+            background: $primary;
+
+          }
         }
       }
     }
@@ -102,6 +114,9 @@
       text-transform: uppercase;
       font-weight: bold;
       line-height: 0.6;
+      @media(max-width:425px){
+        font-size: 2rem;
+      }
     }
 
     h1 {
@@ -1620,8 +1635,10 @@
 
 .navbar-nav {
   @media(max-width: 425px) {
-    max-height: 250px;
+    max-height: 390px;
     overflow: auto;
+    background: #283a70;
+    padding: 15px;
   }
 }
 

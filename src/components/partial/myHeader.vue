@@ -40,7 +40,10 @@
                     <button class="navbar-toggler user-defined" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="mdi mdi-menu"></span>
+                        <!--<span class="mdi mdi-menu"></span>-->
+
+                        <span @click="icon=!icon" :class="[icon ? 'mdi mdi-menu' : 'mdi mdi-close']"></span>
+
                     </button>
                     <div class="collapse navbar-collapse nav-user-define" id="navbarSupportedContent-4">
                         <ul class="navbar-nav ml-auto">
@@ -117,6 +120,11 @@
 <script>
     export default {
 
+        data(){
+          return{
+              icon:'true'
+          }
+        }
 
         }
 </script>

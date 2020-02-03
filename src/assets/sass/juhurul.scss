@@ -92,6 +92,9 @@
 
   .footer-top {
     .media-icon {
+      @media(max-width: 768px) {
+        display: none;
+      }
       .icon {
         margin-right: 5px;
       }
