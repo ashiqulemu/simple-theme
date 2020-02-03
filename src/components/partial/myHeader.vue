@@ -70,7 +70,6 @@
                                     <i class="fa fa-newspaper-o"></i> blog </a>
                                 <div class="dropdown-menu dropdown-menu-right dropdown-user-define"
                                      aria-labelledby="navbarDropdownMenuLink-4">
-                                    <a class="dropdown-item" href="#">blog </a>
                                     <router-link class="dropdown-item" :to="{name:'blogList'}">blog list</router-link>
                                     <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details
                                     </router-link>

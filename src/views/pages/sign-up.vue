@@ -74,7 +74,7 @@
                         </label>
                     </div>
 
-                    <div class="md-link mb-4">
+                    <div class="md-link mb-3">
                         <router-link :to="{name:'forgotPassword'}">
                             Forgot Password
                         </router-link>
