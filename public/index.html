@@ -9,27 +9,24 @@
   </head>
   <body id="main">
 
+
     <div id="app"></div>
     <!-- built files will be auto injected -->
-
-    <a id="pickUp" href="#main">
-            <i class="mdi mdi-arrow-up"></i>
+    <a id="pickUp" href="#" onclick="goTop()">
+         <i class="mdi mdi-arrow-up"></i>
     </a>
 
+
+
     <script>
-
+        function goTop(){
+            event.preventDefault();window.scroll({top: 0, behavior: "smooth"});
+        }
         window.addEventListener("scroll", function(event) {
-
             let top = this.scrollY;
-
-                  if(top >1300){
-                    document.getElementById("pickUp").style.display='block';
-                  }else{
-                      document.getElementById("pickUp").style.display='none';
-                  }
+                top >1300? document.getElementById("pickUp").style.display='block':
+             document.getElementById("pickUp").style.display='none'
         });
-
-
 
     </script>
 

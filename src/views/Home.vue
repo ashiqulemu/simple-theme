@@ -16,7 +16,7 @@
 
                             <div class="button-action">
                                 <button type="button"> Get Your choice!</button>
-                                <button type="button"> Get Your choice!</button>
+                                <button type="button"> Put Your choice!</button>
                             </div>
                         </div>
                     </div>
