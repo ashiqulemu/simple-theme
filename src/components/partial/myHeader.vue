@@ -48,9 +48,9 @@
                     <div class="collapse navbar-collapse nav-user-define" id="navbarSupportedContent-4">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="/">
+                                <button class="nav-link"  @click="$root.scrollToElement('home-slider')">
                                     home
-                                </a>
+                                </button>
                             </li>
                             <li class="nav-item">
                                 <button class="nav-link"  @click="$root.scrollToElement('home-about')">

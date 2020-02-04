@@ -6,7 +6,7 @@ Vue.use(VueRouter);
 const routes = [
     {
         path: '/',
-        name: 'dashboard',
+        name: 'home',
         component: require('../views/Home').default
     },
     {
