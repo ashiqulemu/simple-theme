@@ -1,6 +1,7 @@
 <template>
     <div class="auth-form">
-        <div class="container-box">
+        <div class="container d-flex justify-content-center">
+            <div class="container-box">
             <div class="md-title mt-5">
                 Login
             </div>
@@ -75,6 +76,8 @@
                 </div>
             </div>
         </div>
+        </div>
+
 
     </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
     <div class="auth-form">
+         <div class="container d-flex justify-content-center">
         <div class="container-box">
             <div class="md-title mt-5">
                 Reset Your Password
@@ -67,8 +68,7 @@
                         Done
                     </button>
                 </div>
-
-
+            </div>
             </div>
         </div>
 
