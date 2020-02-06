@@ -5,7 +5,7 @@
                 <div class="col-12 footer-top d-flex align-items-center justify-content-between flex-wrap">
                     <div class="intro">
                         <p>
-                            BE THE FIRS TO KNOW
+                            BE THE FIRST TO KNOW
                         </p>
                         <P class="">
                             Get all the latest information on Events, Sales and Offers.
