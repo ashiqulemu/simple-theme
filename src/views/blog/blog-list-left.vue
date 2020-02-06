@@ -190,6 +190,7 @@
                                      title="Blog Writer"
                                      class="person-image"
                                 />
+
                                 <a href="" class="writer">Smith Handa</a>
                             </div>
                             <p class="blog-description">

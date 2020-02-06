@@ -244,7 +244,7 @@
                             <ul>
                                 <li>
                                     <a href="" title="Facebook">
-                                        <span class="mdi mdi-facebook-box"></span>
+                                        <span class="mdi mdi-facebook-box "></span>
                                     </a>
                                     <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
@@ -581,8 +581,9 @@
 
                 <div class="row">
                     <div class="col-md-6 ">
-                        <div class="map wow fadeInLeft"
-                                 data-wow-duration="2s">
+                        <div class="map wow fadeIn"
+                                 data-wow-duration="2s"
+                        data-wow-delay=".5s">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4111736868135!2d89.54895711484657!3d22.824272429437933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900834703c71%3A0x8f9dc823c122d0d!2sNew%20Market%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1580622374990!5m2!1sen!2sbd"
                                     width="100%"
                                     height="350"
@@ -595,8 +596,8 @@
                     </div>
 
                     <div class="col-md-6 pt-4 py-4">
-                        <div class=" mail-contact wow fadeInRight"
-                                 data-wow-duration="2s">
+                        <div class=" mail-contact wow fadeIn"
+                                 data-wow-duration="2s" data-wow-delay="1s">
                             <h5>We are here ! send us a message</h5>
                             <hr>
                             <form action="" class="form pt-4">
