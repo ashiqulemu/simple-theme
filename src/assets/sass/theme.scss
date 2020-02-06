@@ -99,6 +99,8 @@
   background: url("../../assets/images/slider/banner.jpg") no-repeat;
   overflow: hidden;
   background-size: cover;
+  position: relative;
+  z-index: 2;
 
   .left-content {
     height: auto;
@@ -183,7 +185,7 @@
   padding: 70px 0;
   background: $white;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
   .section-title {
     text-align: center;
@@ -666,7 +668,7 @@
 //===contact us===
 
 .contact-us {
-  margin-bottom: 437px;
+  margin-bottom: 414px;
   background: $white;
   padding: 70px 0;
 
@@ -712,7 +714,8 @@
   min-height: 100vh;
   background: $white;
   margin-bottom: 460px;
-
+  z-index: 2;
+  position: relative;
   .container {
     padding-top: 140px;
   }
