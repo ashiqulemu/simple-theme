@@ -51,11 +51,11 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Strategy</h6>
-                                    <p> The definition of business strategy is a long term plan of action designed to
-                                        achieve a particular goal or set of goals or objectives. Strategy is
-                                        management's
-                                        game plan for strengthening the performance of the enterprise. It states how
-                                        business should be conducted to achieve the desired goals. </p>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, commodi esse
+                                        itaque numquam rerum temporibus. Deleniti eaque eveniet facilis labore
+                                        laudantium nisi pariatur perspiciatis porro vero! Aperiam, assumenda dolorem
+                                        ducimus eos, in incidunt ipsum minima nihil possimus quasi, rem repellat sed
+                                        soluta veniam voluptas! Aut error est explicabo quis vel? </p>
 
                                 </div>
                             </div>
@@ -68,11 +68,11 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Creative</h6>
-                                    <p> Creative person - a person whose creative work shows sensitivity and
-                                        imagination.
-                                        artist. creator - a person who grows or makes or invents things. illustrator -
-                                        an artist who makes illustrations (for books or magazines or advertisements
-                                        etc.) </p>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda illum ipsum
+                                        itaque natus quaerat qui repellendus repudiandae rerum? Atque facilis, iste
+                                        itaque minima nulla officia tempore voluptatibus? Architecto iusto laudantium
+                                        magnam molestias nam perferendis? Aliquid aperiam cum dolorem fuga fugiat ipsum
+                                        nostrum nulla officia optio, quo ratione tempora tempore ullam? </p>
 
                                 </div>
                             </div>
@@ -85,9 +85,12 @@
                                 </div>
                                 <div class="box-details">
                                     <h6>Technology</h6>
-                                    <p> Since technology can be so simple or so complex, there are many types of
-                                        technology. One type is mechanical technology, which includes wheels, cams,
-                                        levers, gears, belts, and engines. </p>
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet aut
+                                        consequatur delectus, distinctio expedita illum inventore ipsa laudantium libero
+                                        minima minus molestias nesciunt nihil perspiciatis quibusdam, quos similique
+                                        veritatis voluptatem, voluptatibus! Accusamus alias, aspernatur commodi cumque
+                                        doloremque, id iure, laborum nisi non pariatur quae quas quibusdam quod
+                                        voluptate voluptatibus. </p>
 
                                 </div>
                             </div>
@@ -135,41 +138,46 @@
                             <div class="box">
                                 <h5><span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
                                 <p>
-                                    Similique sunt in culpa qui officia deserunt mollitia animi.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi aspernatur
+                                    consequatur cum, cupiditate, deserunt enim ex fuga itaque magni minus necessitatibus
+                                    nulla odio odit possimus rem reprehenderit, sit unde!
                                 </p>
                             </div>
                             <div class="box">
                                 <h5><span class="mdi mdi-update text-primary"></span> Quick Update</h5>
                                 <p>
-                                    Et harum quidem rerum facilis est et expedita distinctio.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio
+                                    doloribus esse, facilis ipsa ipsam libero obcaecati odit rem veritatis.
                                 </p>
                             </div>
                             <div class="box">
                                 <h5><span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
                                 <p>
-                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
-                                    quo minus id quod maxime placeat facere possimus.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores,
+                                    assumenda aut.
                                 </p>
                             </div>
                             <div class="box">
                                 <h5><span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
                                 <p>
-                                    Omnis voluptas assumenda est, omnis dolor repellendus.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et in itaque
+                                    minima molestiae nesciunt porro veritatis voluptatibus. Libero, veritatis.
                                 </p>
                             </div>
                             <div class="box">
                                 <h5><span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
                                 <p>
-                                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
-                                    saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis magni
+                                    perspiciatis praesentium veritatis? Assumenda ea earum fugiat iste iusto magni nisi
+                                    nostrum praesentium quidem quod ratione repellendus sint tenetur, voluptas.
                                 </p>
                             </div>
                             <div class="box">
                                 <h5><span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
                                 <p>
-                                    Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-                                    voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
-                                    repellat.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis eveniet magni
+                                    minima odio praesentium recusandae tempora. Alias autem dolores inventore ipsa
+                                    laborum, modi pariatur ratione sed! Accusamus alias culpa deserunt dicta.
                                 </p>
                             </div>
                         </div>
@@ -490,7 +498,7 @@
         </section>
 
 
-        <section class="contact-us home-contact">
+        <section class="contact-us home-contact" ref="home-contact">
 
             <div class="container">
                 <div class="row section-shadow">
@@ -505,13 +513,20 @@
                 <div class="row">
                     <div class="col-md-6 ">
                         <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4111736868135!2d89.54895711484657!3d22.824272429437933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900834703c71%3A0x8f9dc823c122d0d!2sNew%20Market%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1580622374990!5m2!1sen!2sbd" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4111736868135!2d89.54895711484657!3d22.824272429437933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900834703c71%3A0x8f9dc823c122d0d!2sNew%20Market%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1580622374990!5m2!1sen!2sbd"
+                                    width="100%"
+                                    height="350"
+                                    frameborder="0"
+                                    style="border:0;"
+                                    allowfullscreen="">
+
+                            </iframe>
                         </div>
                     </div>
 
                     <div class="col-md-6 pt-4 py-4">
                         <div class=" mail-contact">
-                            <h5>We are here !   send us a message</h5>
+                            <h5>We are here ! send us a message</h5>
                             <hr>
                             <form action="" class="form pt-4">
                                 <input type="text" class="form-control" placeholder="Name">
@@ -564,23 +579,21 @@
 
             getWindowWidth() {
                 if (document.body.offsetWidth < 769 && document.body.offsetWidth > 426) {
-                    this.slickOptions.slidesToShow = 2
+                    this.slickOptions.slidesToShow = 2;
                     this.reInit();
-                }
-                else if (document.body.offsetWidth < 426) {
-                    this.slickOptions.slidesToShow = 1
+                } else if (document.body.offsetWidth < 426) {
+                    this.slickOptions.slidesToShow = 1;
                     this.reInit();
-                }
-                else {
-                    this.slickOptions.slidesToShow = 4
+                } else {
+                    this.slickOptions.slidesToShow = 4;
                     this.reInit();
                 }
             },
             reInit() {
                 this.$nextTick(() => {
-                    this.$refs.slick.reSlick();
-                    document.querySelector(".slick-next").innerHTML = "<span class='mdi mdi-chevron-right'></span>";
-                    document.querySelector(".slick-prev").innerHTML = "<span class='mdi mdi-chevron-left'></span>";
+                    this.$refs.slick ? this.$refs.slick.reSlick() : '';
+                    document.querySelector(".slick-next")?document.querySelector(".slick-next").innerHTML = "<span class='mdi mdi-chevron-right'></span>":'';
+                    document.querySelector(".slick-next")?document.querySelector(".slick-prev").innerHTML = "<span class='mdi mdi-chevron-left'></span>":'';
                 });
             },
 

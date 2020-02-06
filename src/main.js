@@ -25,23 +25,22 @@ new Vue({
             if (this.$route.path != "/") {
                 router.push({path: '/'})
             }
-            const el = this.$el.getElementsByClassName(divClass)[0];
-            if (el) {
-                el.scrollIntoView(true);
-                window.scroll({top:window.scrollY - 60,behavior: "smooth"});
+            this.$nextTick(() => {
+                const el = this.$el.getElementsByClassName(divClass)[0];
+                if (el) {
+                    el.scrollIntoView(true);
+                    window.scroll({top: window.scrollY - 60, behavior: "smooth"});
 
-            }
-
-
+                }
+            })
         },
 
 
     },
 
-    mounted(){
+    mounted() {
 
     },
-
 
 
 }).$mount('#app')

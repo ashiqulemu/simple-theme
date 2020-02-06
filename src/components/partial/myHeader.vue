@@ -1,7 +1,7 @@
 <template>
     <div>
         <header class="header">
-            <div class="top-bar">
+            <div class="top-bar d-none d-sm-block">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-dark">
                         <div class="d-flex justify-content-between align-items-center w-100">
@@ -74,8 +74,11 @@
                                 <div class="dropdown-menu dropdown-menu-right dropdown-user-define"
                                      aria-labelledby="navbarDropdownMenuLink-4">
                                     <router-link class="dropdown-item" :to="{name:'blogList'}">blog list</router-link>
-                                    <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details
-                                    </router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogListLeft'}">blog list (left sidebar)</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogListRight'}">blog list (right sidebar)</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogDetails'}">blog Details</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogDetailsLeft'}">blog Details (left sidebar)</router-link>
+                                    <router-link class="dropdown-item" :to="{name:'blogDetailsRight'}">blog Details (right sidebar)</router-link>
                                 </div>
                             </li>
                             <li class="nav-item">

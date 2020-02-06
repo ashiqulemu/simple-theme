@@ -1287,28 +1287,28 @@
   position: absolute;
 }
 
-.blog-btn-group {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 0;
-  justify-content: center;
-  align-items: center;
-  background: $bg-primary;
-
-  .blog-link {
-    padding: 5px 15px;
-    text-decoration: none;
-    background: $primary;
-    color: $bg-primary;
-    margin: 0.5px;
-    border-radius: 2px;
-    font-size: 14px;
-
-    &:hover {
-      background: $secondary;
-    }
-  }
-}
+//.blog-btn-group {
+//  display: flex;
+//  flex-wrap: wrap;
+//  padding: 10px 0;
+//  justify-content: center;
+//  align-items: center;
+//  background: $bg-primary;
+//
+//  .blog-link {
+//    padding: 5px 15px;
+//    text-decoration: none;
+//    background: $primary;
+//    color: $bg-primary;
+//    margin: 0.5px;
+//    border-radius: 2px;
+//    font-size: 14px;
+//
+//    &:hover {
+//      background: $secondary;
+//    }
+//  }
+//}
 
 .download-area {
   margin: auto;
@@ -1355,7 +1355,6 @@
   padding: 140px 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
 
   .coming-soon-area {
@@ -1422,7 +1421,7 @@
 
   // starting coding for news letter area
   .news-letter-area {
-    padding: 50px;
+    padding: 0 50px;
     @media (max-width: 425px) {
       padding: 30px 0;
     }
