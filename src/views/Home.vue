@@ -32,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center wow zoomInDown "
+                        <h2 class="section-title text-center wow zoomIn"
                             data-wow-delay=".3s"
                             data-wow-duration="0.8s">
                             about us
@@ -122,7 +122,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center wow zoomInDown"
+                        <h2 class="section-title text-center wow zoomIn"
                             data-wow-delay=".3s"
                             data-wow-duration="0.8s">
                             Our featuers
@@ -150,7 +150,7 @@
                     <div class="col-md-8">
                         <div class="features-boxes">
                             <div class="box wow fadeIn"
-                                 data-wow-delay="1s"
+                                 data-wow-delay=".2s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
                                 <p>
@@ -160,7 +160,7 @@
                                 </p>
                             </div>
                             <div class="box wow fadeIn"
-                                 data-wow-delay="1.2s"
+                                 data-wow-delay=".4s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-update text-primary"></span> Quick Update</h5>
                                 <p>
@@ -169,7 +169,7 @@
                                 </p>
                             </div>
                             <div class="box wow fadeIn"
-                                 data-wow-delay="1.4s"
+                                 data-wow-delay=".6s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
                                 <p>
@@ -178,7 +178,7 @@
                                 </p>
                             </div>
                             <div class="box wow fadeIn"
-                                 data-wow-delay="1.6s"
+                                 data-wow-delay=".8s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
                                 <p>
@@ -187,7 +187,7 @@
                                 </p>
                             </div>
                             <div class="box wow fadeIn"
-                                 data-wow-delay="1.8s"
+                                 data-wow-delay="1s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
                                 <p>
@@ -197,7 +197,7 @@
                                 </p>
                             </div>
                             <div class="box wow fadeIn"
-                                 data-wow-delay="2s"
+                                 data-wow-delay="1.2s"
                                  data-wow-duration="2s">
                                 <h5><span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
                                 <p>
@@ -216,7 +216,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"
+                        <h2 class="section-title text-center wow zoomIn" data-wow-delay=".3s"
                             data-wow-duration="0.8s">
                             Our Team
                         </h2>
@@ -450,7 +450,7 @@
             <div class="container ">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary wow zoomInDown" data-wow-delay=".3s"
+                        <h2 class="section-title text-center text-primary wow zoomIn" data-wow-delay=".3s"
                             data-wow-duration="0.8s">
                             Price plan
                         </h2>
@@ -493,7 +493,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="price-box focus">
+                        <div class="price-box focus wow zoomIn"
+                            data-wow-duration="2s">
                             <div class="topper">
                                 <h4>standard plan </h4>
                                 <div class="month">
@@ -569,7 +570,7 @@
             <div class="container">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary wow zoomInDown"
+                        <h2 class="section-title text-center text-primary wow zoomIn"
                             data-wow-delay=".3s"
                             data-wow-duration="0.8s">
                             Contact us

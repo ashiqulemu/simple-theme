@@ -27,17 +27,15 @@ new Vue({
             this.$nextTick(() => {
                 const el = this.$el.getElementsByClassName(divClass)[0];
                 if (el) {
-                    el.scrollIntoView(true);
-                    window.scroll(0, window.scrollY - 60, {behavior: "smooth"});
+                    const y = el.getBoundingClientRect().top + window.pageYOffset - 60;
+                    window.scrollTo({top: y, behavior: 'smooth'});
                 }
             })
         },
-
-
     },
 
-    mounted(){
-      new WOW.WOW().init();
+    mounted() {
+        new WOW.WOW().init();
     }
 
 
