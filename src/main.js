@@ -5,8 +5,6 @@ import store from './store'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
-import './assets/sass/_soumik.scss'
-import './assets/sass/juhurul.scss'
 import '@mdi/font/css/materialdesignicons.css'
 import 'vue-slick/src/slickCarousel'
 // Theme partial scss

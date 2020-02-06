@@ -332,7 +332,7 @@
                                 <router-link to="/blog-details">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
                                     repellat suscipit vel!
-                                </router-link>>
+                                </router-link>
                             </li>
 
                         </ul>
