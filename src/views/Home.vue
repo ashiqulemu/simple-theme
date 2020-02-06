@@ -243,7 +243,7 @@
                             mark harison
                         </div>
                         <div class="designation">
-                            managing director
+                            CTO
                         </div>
                         <div class="details">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
@@ -315,7 +315,7 @@
                             penal Lomix
                         </div>
                         <div class="designation">
-                            Director
+                           Web Designer
                         </div>
                         <div class="details">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
@@ -349,6 +349,42 @@
                         </div>
                         <div class="name">
                             Arbaz Maxi
+                        </div>
+                        <div class="designation">
+                            Project manager
+                        </div>
+                        <div class="details">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
+                            enim illo illum iste
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <span class="mdi mdi-facebook-box"></span>
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <span class="mdi mdi-twitter-box"></span>
+                                    </a>
+                                    <a href="#" title="Youtube">
+                                        <span class="mdi mdi-youtube"></span>
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <span class="mdi mdi-instagram"></span>
+                                    </a>
+                                    <a href="#" title="Google Plus">
+                                        <span class="mdi mdi-google-plus"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team-box">
+                        <div class="photo">
+                            <img src="../assets/images/themes/team-members/6.jpg" alt="team-photo">
+                        </div>
+                        <div class="name">
+                            Arbaz Maxilion
                         </div>
                         <div class="designation">
                             Project manager
