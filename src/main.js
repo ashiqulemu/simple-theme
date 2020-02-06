@@ -18,6 +18,9 @@ new Vue({
     store,
     render: h => h(App),
 
+    mounted(){
+      new WOW.WOW().init();
+    },
     methods: {
 
         scrollToElement(divClass) {
@@ -26,19 +29,20 @@ new Vue({
             }
             this.$nextTick(() => {
                 const el = this.$el.getElementsByClassName(divClass)[0];
-                if (el) {
-                    el.scrollIntoView(true);
-                    window.scroll(0, window.scrollY - 60, {behavior: "smooth"});
-                }
+                el.style.cssText="visibility:hidden"
+                setTimeout(function () {
+                    if (el) {
+                        el.scrollIntoView(true);
+                        window.scroll({top: window.scrollY-60, behavior: "smooth"})
+                        el.style.cssText="visibility:visible"
+                    }
+                },100)
+
             })
         },
 
 
     },
-
-    mounted(){
-      new WOW.WOW().init();
-    }
 
 
 }).$mount('#app')
