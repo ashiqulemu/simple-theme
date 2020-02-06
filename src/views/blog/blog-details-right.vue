@@ -2,7 +2,7 @@
     <section class="blg-details">
        <div class="container">
         <div class="blog-details row">
-            <div class="col-md-8 blog-content">
+            <div class="col-md-9 blog-content">
                     <div class="img-box">
                         <img src="../../assets/images/blog/blog1.png"
                              alt="Blog Details"
@@ -12,13 +12,13 @@
                     <div class="writer-box">
                         <div class="first">
 
-                            <img src="../../assets/images/person/image1.jpg"
+                            <img src="../../assets/images/themes/team-members/3.jpg"
                                  alt="writer"
                                  title="Blog Writer"
                                  class="person-image"
                             />
                             <a href="#" class="writer">Smith Handa</a>
-                            <div class="date pl-3 "><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
+                            <div class="date"><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
                         </div>
                         <div class="last">
                             <button type="button"
@@ -173,93 +173,171 @@
                         </ul>
                     </nav>
                 </div>
-            <div class="blog-sidebar col-md-4">
-                <div class="input-group search-box">
-                    <input class="form-control"
-                           placeholder="Search"
-                           type="text">
-                    <div class="input-group-btn">
-                        <button class="btn submit-btn" type="submit">
-                            <i class="mdi mdi-magnify"></i>
-                        </button>
+            <div class="blog-sidebar col-md-3">
+                    <div class="input-group search-box">
+                        <input class="form-control"
+                               placeholder="Search"
+                               type="text">
+                        <div class="input-group-btn">
+                            <button class="btn submit-btn" type="submit">
+                                <i class="mdi mdi-magnify"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="side-category">
+                        <div class="category-title">Categories</div>
+                        <ul class="nav navbar-nav category-list">
+                            <li>
+                                <a href="#" data-toggle="collapse"
+                                   data-target="#submenu-1"
+                                   class="category-item"
+                                >
+                                    <span>Technology</span>
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </a>
+                                <ul id="submenu-1" class="collapse">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Information and communications technology
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-angle-double-right"></i>
+                                            Agricultural technology
+                                        </a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Electrical engineering technology</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse"
+                                   data-target="#submenu-2"
+                                   class="category-item"
+                                >
+                                    <span>Social Media</span>
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </a>
+                                <ul id="submenu-2" class="collapse">
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Facebook </a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Instagram</a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Twitter</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse"
+                                   data-target="#submenu-3"
+                                   class="category-item"
+                                >
+                                    <span>Apps</span>
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </a>
+                                <ul id="submenu-3" class="collapse">
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Android </a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> PC</a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> IOS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse"
+                                   data-target="#submenu-4"
+                                   class="category-item"
+                                >
+                                    <span>Business</span>
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </a>
+                                <ul id="submenu-4" class="collapse">
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> E-Commerce</a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Trade</a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Corporate governance‎ </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="collapse"
+                                   data-target="#submenu-5"
+                                   class="category-item"
+                                >
+                                    <span>Entertainment</span>
+                                    <i class="mdi mdi-chevron-right"></i>
+                                </a>
+                                <ul id="submenu-5" class="collapse">
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Movies </a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Videos</a>
+                                    </li>
+                                    <li><a href="#">
+                                        <i class="fa fa-angle-double-right"></i> Blog </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post">
+                        <div class="post-title">Recent Post</div>
+                        <ul class="post-box">
+                            <li class="item">
+                                <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                                </router-link>>
+                            </li>
+                            <li class="item">
+                                <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                                </router-link>>
+                            </li>
+                            <li class="item">
+                                <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                                </router-link>>
+                            </li>
+                            <li class="item">
+                                <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                                </router-link>>
+                            </li>
+                            <li class="item">
+                               <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                               </router-link>>
+                            </li>
+                            <li class="item">
+                                <router-link to="/blog-details">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate eaque non
+                                    repellat suscipit vel!
+                                </router-link>>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-                <div class="side-category">
-                    <div class="category-title">Categories</div>
-                    <ul class="nav navbar-nav category-list">
-                        <li>
-                            <a href="#" data-toggle="collapse"
-                               data-target="#submenu-1"
-                               class="category-item"
-                            >
-                                <span>Category 1</span>
-                                <i class="mdi mdi-chevron-right"></i>
-                            </a>
-                            <ul id="submenu-1" class="collapse">
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 1.1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 1.2</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 1.3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="collapse"
-                               data-target="#submenu-2"
-                               class="category-item"
-                            >
-                                <span>Category 2</span>
-                                <i class="mdi mdi-chevron-right"></i>
-                            </a>
-                            <ul id="submenu-2" class="collapse">
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 2.1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 2.2</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 2.3</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="collapse"
-                               data-target="#submenu-3"
-                               class="category-item"
-                            >
-                                <span>Category 3</span>
-                                <i class="mdi mdi-chevron-right"></i>
-                            </a>
-                            <ul id="submenu-3" class="collapse">
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 3.1</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 3.2</a></li>
-                                <li><a href="#"><i class="fa fa-angle-double-right"></i> sub menu 3.3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="recent-post">
-                    <div class="post-title">Recent Post</div>
-                    <ul class="post-box">
-                        <li class="item">
-                            <a href="#">I must explain to you how all this mistaken idea of denouncing pleasure and
-                                praising pain was born.</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">I will give you a complete account of the system.</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Expound the actual teachings of the great explorer of the truth, the
-                                master-builder of human happiness.</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">No one rejects, dislikes, or avoids pleasure itself.</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">Nor again is there anyone who loves or pursues or desires to obtain pain of
-                                itself.</a>
-                        </li>
-                        <li class="item">
-                            <a href="#">To take a trivial example, which of us ever undertakes laborious physical
-                                exercise, except to obtain some advantage from it</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
         </div>
 
     </div>

@@ -18,7 +18,7 @@
                                  class="person-image"
                             />
                             <a href="#" class="writer">Smith Handa</a>
-                            <div class="date pl-3 "><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
+                            <div class="date"><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
                         </div>
                         <div class="last">
                             <button type="button"

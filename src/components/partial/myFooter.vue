@@ -83,9 +83,9 @@
                                             <p class="footer-col-title">MAIN FEATURE</p>
                                             <div class="d-flex feature">
                                                 <div class="d-flex flex-column">
-                                                    <a href=""> Super First</a>
-                                                    <a href=""> Super First</a>
-                                                    <a href=""> Super First</a>
+                                                    <p>Responsive</p>
+                                                    <p>Fast</p>
+                                                    <p>Simple</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,9 +93,9 @@
                                             <p class="footer-col-title">MAIN FEATURE</p>
                                             <div class="d-flex feature">
                                                 <div class="d-flex flex-column">
-                                                    <a href=""> Super First</a>
-                                                    <a href=""> Super First</a>
-                                                    <a href=""> Super First</a>
+                                                    <p>Advanced Technology</p>
+                                                    <p>Super customizable</p>
+                                                    <p>Agile Management</p>
                                                 </div>
                                             </div>
                                         </div>

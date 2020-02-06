@@ -45,7 +45,7 @@
                         <span @click="icon=!icon" :class="[icon ? 'mdi mdi-menu' : 'mdi mdi-close']"></span>
 
                     </button>
-                    <div class="collapse navbar-collapse nav-user-define" id="navbarSupportedContent-4">
+                    <div class="collapse navbar-collapse nav-user-define micro-nav" id="navbarSupportedContent-4">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
                                 <button class="nav-link"  @click="$root.scrollToElement('home-slider')">

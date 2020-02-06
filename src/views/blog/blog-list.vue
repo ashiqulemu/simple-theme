@@ -13,7 +13,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image1.jpg"
+                                    <img src="../../assets/images/themes/team-members/1.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -58,7 +58,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image2.jpg"
+                                    <img src="../../assets/images/themes/team-members/2.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -103,7 +103,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image3.jpg"
+                                    <img src="../../assets/images/themes/team-members/3.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -148,7 +148,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image4.jpg"
+                                    <img src="../../assets/images/themes/team-members/4.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -193,7 +193,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image5.jpg"
+                                    <img src="../../assets/images/themes/team-members/5.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -238,7 +238,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image6.jpg"
+                                    <img src="../../assets/images/themes/team-members/1.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -283,7 +283,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image6.jpg"
+                                    <img src="../../assets/images/themes/team-members/3.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -328,7 +328,7 @@
 
                             <div class="card-body">
                                 <div class="blog-writer">
-                                    <img src="../../assets/images/person/image2.jpg"
+                                    <img src="../../assets/images/themes/team-members/2.jpg"
                                          alt="writer"
                                          title="Blog Writer"
                                          class="person-image"
@@ -352,6 +352,51 @@
                                             title="Add to favourite"
                                             :class="{'mdi-heart':favourites.includes(8),'mdi-heart-outline':!favourites.includes(8)}"
                                             @click="doFavourite(8)"
+                                    >
+                                    </button>
+                                    <button class="mdi mdi-share"
+                                            title="Share this post"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                <div class="col-md-4 mb-3 px-2">
+                        <div class="card">
+                            <router-link to="/blog-details">
+                                <img class="card-img-top"
+                                     src="../../assets/images/blog/blog1.png"
+                                     alt="Card image cap"
+                                >
+                            </router-link>
+
+                            <div class="card-body">
+                                <div class="blog-writer">
+                                    <img src="../../assets/images/themes/team-members/1.jpg"
+                                         alt="writer"
+                                         title="Blog Writer"
+                                         class="person-image"
+                                    />
+                                    <a href="#" class="writer">Smith Handa</a>
+                                </div>
+                                <p class="blog-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
+                                    debitis eos et facere illum impedit ipsam magnam minima neque nostrum obcaecati
+                                    omnis perferendis quidem, sapiente unde veritatis voluptatem?
+                                </p>
+                            </div>
+                            <div class="my-footer">
+                                <div class="first">
+                                    <i class="mdi mdi-star"/>
+                                    <div class="rank">4.8 <span>(53)</span></div>
+                                </div>
+                                <div class="last">
+                                    <button type="button"
+                                            class="mdi"
+                                            title="Add to favourite"
+                                            :class="{'mdi-heart':favourites.includes(1),'mdi-heart-outline':!favourites.includes(1)}"
+                                            @click="doFavourite(1)"
                                     >
                                     </button>
                                     <button class="mdi mdi-share"
