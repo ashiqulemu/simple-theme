@@ -201,7 +201,7 @@
                 <slick ref="slick" class="team-member-container" :options="slickOptions">
                     <div class="team-box">
                         <div class="photo">
-                            <img src="../assets/images/themes/team-members/2.jpg" alt="team-photo">
+                            <img src="../assets/images/themes/team-members/1.jpg" alt="team-photo">
                         </div>
                         <div class="name">
                             john caramoi
