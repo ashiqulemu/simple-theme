@@ -6,7 +6,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image2.jpg"
+                                <img src="../../assets/images/themes/team-members/4.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -30,7 +30,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image1.jpg"
+                                <img src="../../assets/images/themes/team-members/2.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -54,7 +54,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image4.jpg"
+                                <img src="../../assets/images/themes/team-members/5.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -77,7 +77,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image3.jpg"
+                                <img src="../../assets/images/themes/team-members/4.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -102,7 +102,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image6.jpg"
+                                <img src="../../assets/images/themes/team-members/5.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -126,7 +126,7 @@
                     <div class="col-md-4">
                         <div class="review-container">
                             <div class="mb-4">
-                                <img src="../../assets/images/person/image5.jpg"
+                                <img src="../../assets/images/themes/team-members/5.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>

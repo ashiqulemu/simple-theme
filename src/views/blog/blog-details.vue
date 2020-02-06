@@ -18,7 +18,7 @@
                     <div class="writer-box">
                         <div class="first">
 
-                            <img src="../../assets/images/person/image1.jpg"
+                            <img src="../../assets/images/themes/team-members/3.jpg"
                                  alt="writer"
                                  title="Blog Writer"
                                  class="person-image"
