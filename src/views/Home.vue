@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="home-slider" id="home">
+        <section class="home-slider">
             <div class="container">
                 <div class="row device-helper">
                     <div class="col-lg-6 col-md-6 col-xs-12">
@@ -25,7 +25,7 @@
 
         </section>
 
-        <section class="about-us home-about" id="about-us">
+        <section class="about-us home-about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
@@ -534,7 +534,7 @@
         </section>
 
 
-        <section class="contact-us home-contact" ref="home-contact">
+        <section class="contact-us home-contact" >
 
             <div class="container">
                 <div class="row section-shadow">
