@@ -46,13 +46,13 @@
                                 ectetur adipisicing elitcon sectetur adipisicing elit consectetur adipisicing elit
                                 Accusantium </p>
 
-                            <div class="items">
+                            <div class="items wow fadeInLeft" data-wow-delay="2s" data-wow-duration="2s">
                                 <div class="box">
                                     <div class="icon">
                                         <span class="mdi mdi-alarm-light-outline"></span>
                                     </div>
                                 </div>
-                                <div class="box-details">
+                                <div class="box-details ">
                                     <h6>Strategy</h6>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, commodi esse
                                         itaque numquam rerum temporibus. Deleniti eaque eveniet facilis labore
