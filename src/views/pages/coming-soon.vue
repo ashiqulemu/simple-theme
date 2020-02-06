@@ -5,7 +5,7 @@
                <div class="col-lg-6  col-xs-12">
                    <div class="coming-soon-area">
                        <div class="coming-soon">
-                           <img src="https://www.freeiconspng.com/uploads/flame-logo-png-30.png" alt="">
+                            <div class="icon"><span class="text-primary mdi mdi-clock-fast"></span></div>
                            <div class="title">We are going to meet soon</div>
                            <div class="message">Please keep checking after few days, we will get close gradually.</div>
                            <div class="coming-timer">

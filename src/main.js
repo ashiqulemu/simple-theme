@@ -18,6 +18,9 @@ new Vue({
     store,
     render: h => h(App),
 
+    mounted(){
+      new WOW.WOW().init();
+    },
     methods: {
 
         scrollToElement(divClass) {
@@ -33,10 +36,6 @@ new Vue({
             })
         },
     },
-
-    mounted() {
-        new WOW.WOW().init();
-    }
 
 
 }).$mount('#app')
