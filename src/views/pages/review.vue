@@ -8,7 +8,7 @@
                              data-wow-delay=".2s"
                              data-wow-duration="2s">
                             <div class="mb-4">
-                                <img src="../../assets/images/themes/team-members/4.jpg"
+                                <img src="../../assets/images/themes/team-members/1.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -60,7 +60,7 @@
                              data-wow-delay=".6s"
                              data-wow-duration="2s">
                             <div class="mb-4">
-                                <img src="../../assets/images/themes/team-members/5.jpg"
+                                <img src="../../assets/images/themes/team-members/3.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
@@ -139,7 +139,7 @@
                              data-wow-delay="1.2s"
                              data-wow-duration="2s">
                             <div class="mb-4">
-                                <img src="../../assets/images/themes/team-members/5.jpg"
+                                <img src="../../assets/images/themes/team-members/6.jpg"
                                      alt="employee image"
                                      class="employee-image"/>
                             </div>
