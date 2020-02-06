@@ -1870,6 +1870,9 @@
       }
 
       .information {
+        a{
+          text-decoration: none;
+        }
 
         .info-right {
           margin-left: 100px !important;
