@@ -4,18 +4,21 @@
             <div class="container">
                 <div class="row device-helper">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="left-content">
-                            <img src="../assets/images/slider/devices.png" alt="Device Photo">
+                        <div class="left-content " >
+                            <img class="wow fadeInLeftBig"
+                                 data-wow-delay=".25s"
+                                 src="../assets/images/slider/devices.png" alt="Device Photo">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="right-content">
-                            <p class="title">Own content</p>
-                            <h1 class="text-center py-3">
+                            <p class="title wow flipOutY"
+                               data-wow-delay="1s" data-wow-duration="1.5s">Own content</p>
+                            <h1 class="text-center py-3  wow flipOutX" data-wow-delay="2s" data-wow-duration="2s">
                                 Make your own business!</h1>
 
-                            <div class="button-action">
-                                <button type="button"> Get Your choice!</button>
+                            <div class="button-action wow fadeInUpBig"  data-wow-delay="2s" data-wow-duration="1.5s">
+                                <button type="button "> Get Your choice!</button>
                                 <button type="button"> Put Your choice!</button>
                             </div>
                         </div>
@@ -29,7 +32,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center">
+                        <h2 class="section-title text-center wow zoomInDown " data-wow-delay=".3s"   data-wow-duration="0.8s">
                             about us
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -111,7 +114,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center">
+                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"   data-wow-duration="0.8s">
                             Our featuers
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -190,7 +193,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center">
+                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"   data-wow-duration="0.8s">
                             Our Team
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur
@@ -423,7 +426,7 @@
             <div class="container ">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary">
+                        <h2 class="section-title text-center text-primary wow zoomInDown"  data-wow-delay=".3s"   data-wow-duration="0.8s">
                             Price plan
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -539,7 +542,7 @@
             <div class="container">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary">
+                        <h2 class="section-title text-center text-primary wow zoomInDown"  data-wow-delay=".3s"   data-wow-duration="0.8s">
                             Contact us
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>

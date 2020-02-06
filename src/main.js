@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/sass/theme.scss'
 import '@mdi/font/css/materialdesignicons.css'
 import 'vue-slick/src/slickCarousel'
+import WOW from './assets/js/wow.min'
 // Theme partial scss
 
 Vue.config.productionTip = false;
@@ -34,6 +35,11 @@ new Vue({
 
 
     },
+
+    mounted(){
+      new WOW.WOW().init();
+    }
+
 
 }).$mount('#app')
 
