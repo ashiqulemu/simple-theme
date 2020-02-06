@@ -17,7 +17,7 @@
                                  title="Blog Writer"
                                  class="person-image"
                             />
-                            <a href="#" class="writer">Smith Handa</a>
+                            <a href="" class="writer">Smith Handa</a>
                             <div class="date"><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
                         </div>
                         <div class="last">
@@ -105,7 +105,7 @@
                             All comments (37)
                         </div>
                         <div class="comment-item ">
-                            <div class="comment-writer"><a href="#" class="writer">Simoes Salome</a></div>
+                            <div class="comment-writer"><a href="" class="writer">Simoes Salome</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt
@@ -115,7 +115,7 @@
 
                         </div>
                         <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">French Tamzyn</a></div>
+                            <div class="comment-writer"><a href="" class="writer">French Tamzyn</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A est exercitationem saepe
                                 similique! Accusantium atque dignissimos eum facilis, fugiat id illo maiores minus
@@ -124,7 +124,7 @@
 
                         </div>
                         <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Ithya Nguta</a></div>
+                            <div class="comment-writer"><a href="" class="writer">Ithya Nguta</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta dolorem eius
                                 molestiae molestias nam placeat quam quod rerum tempora. Aliquid fugit labore molestiae
@@ -135,7 +135,7 @@
 
                         </div>
                         <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Stanbrige Peter</a></div>
+                            <div class="comment-writer"><a href="" class="writer">Stanbrige Peter</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi est ipsa itaque
                                 laudantium maiores pariatur quod recusandae reprehenderit voluptas.
@@ -143,7 +143,7 @@
 
                         </div>
                         <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Stone John</a></div>
+                            <div class="comment-writer"><a href="" class="writer">Stone John</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, beatae culpa
                                 dicta dignissimos fugit hic in iste nam odio odit placeat, qui quis ratione repudiandae
@@ -156,16 +156,16 @@
                     <nav aria-label="Blog Page navigation" class="d-flex justify-content-center">
                         <ul class="pagination">
                             <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
+                                <a class="page-link" href="" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                     <span class="sr-only">Previous</span>
                                 </a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="">1</a></li>
+                            <li class="page-item"><a class="page-link" href="">2</a></li>
+                            <li class="page-item"><a class="page-link" href="">3</a></li>
                             <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
+                                <a class="page-link" href="" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                     <span class="sr-only">Next</span>
                                 </a>

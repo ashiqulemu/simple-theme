@@ -18,7 +18,7 @@
                             <div class="category-title">Categories</div>
                             <ul class="nav navbar-nav category-list">
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-1"
                                        class="category-item"
                                     >
@@ -27,24 +27,24 @@
                                     </a>
                                     <ul id="submenu-1" class="collapse">
                                         <li>
-                                            <a href="#">
+                                            <a href="">
                                                 <i class="fa fa-angle-double-right"></i>
                                                 Information and communications technology
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="">
                                                 <i class="fa fa-angle-double-right"></i>
                                                 Agricultural technology
                                             </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Electrical engineering technology</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-2"
                                        class="category-item"
                                     >
@@ -52,19 +52,19 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-2" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Facebook </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Instagram</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Twitter</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-3"
                                        class="category-item"
                                     >
@@ -72,10 +72,10 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-3" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Android </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> PC</a>
                                         </li>
                                         <li><a href="#">

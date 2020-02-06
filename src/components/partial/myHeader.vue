@@ -6,7 +6,7 @@
                     <nav class="navbar navbar-expand-lg navbar-dark">
                         <div class="d-flex justify-content-between align-items-center w-100">
                             <div class="contact d-flex py-2">
-                                <small class="p-0 m-0 text-white"> Need Help?  <a href="#" class="text-white"> 012-345-6789 </a></small>
+                                <small class="p-0 m-0 text-white"> Need Help?  <a href="" class="text-white"> 012-345-6789 </a></small>
                             </div>
                             <div>
                                 <div class="media-icon">
@@ -34,7 +34,7 @@
             </div>
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="">
                         <img src="../../assets/images/logo.png" height="30" alt="">
                     </a>
                     <button class="navbar-toggler user-defined" type="button" data-toggle="collapse"

@@ -18,7 +18,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Smith Handa</a>
+                                    <a href="" class="writer">Smith Handa</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -63,7 +63,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Anderson Eugenia</a>
+                                    <a href="" class="writer">Anderson Eugenia</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -108,7 +108,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Kazantzis John</a>
+                                    <a href="" class="writer">Kazantzis John</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -153,7 +153,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Blair Verona</a>
+                                    <a href="" class="writer">Blair Verona</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -198,7 +198,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Meldrum Jackie</a>
+                                    <a href="" class="writer">Meldrum Jackie</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -243,7 +243,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Burch Desiree</a>
+                                    <a href="" class="writer">Burch Desiree</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -288,7 +288,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Harry Daly</a>
+                                    <a href="" class="writer">Harry Daly</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum ipsum
@@ -333,7 +333,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Andrews Hayman</a>
+                                    <a href="" class="writer">Andrews Hayman</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum ipsum
@@ -378,7 +378,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Smith Handa</a>
+                                    <a href="" class="writer">Smith Handa</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -411,16 +411,16 @@
                 <nav aria-label="Blog Page navigation" class="d-flex justify-content-center">
                     <ul class="pagination">
                         <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
+                            <a class="page-link" href="" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                                 <span class="sr-only">Previous</span>
                             </a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="">1</a></li>
+                        <li class="page-item"><a class="page-link" href="">2</a></li>
+                        <li class="page-item"><a class="page-link" href="">3</a></li>
                         <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
+                            <a class="page-link" href="" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                                 <span class="sr-only">Next</span>
                             </a>

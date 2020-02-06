@@ -17,7 +17,7 @@
                            <div class="request-download-area">
                                <div>
                                    If it's not working, then kindly
-                                   <a href="#">
+                                   <a href="">
                                        Click here to download manually
                                    </a>
                                    <span>

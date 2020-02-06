@@ -216,19 +216,19 @@
                         <div class="social">
                             <ul>
                                 <li>
-                                    <a href="#" title="Facebook">
+                                    <a href="" title="Facebook">
                                         <span class="mdi mdi-facebook-box"></span>
                                     </a>
-                                    <a href="#" title="Twitter">
+                                    <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
                                     </a>
-                                    <a href="#" title="Youtube">
+                                    <a href="" title="Youtube">
                                         <span class="mdi mdi-youtube"></span>
                                     </a>
-                                    <a href="#" title="Instagram">
+                                    <a href="" title="Instagram">
                                         <span class="mdi mdi-instagram"></span>
                                     </a>
-                                    <a href="#" title="Google Plus">
+                                    <a href="" title="Google Plus">
                                         <span class="mdi mdi-google-plus"></span>
                                     </a>
                                 </li>
@@ -252,19 +252,19 @@
                         <div class="social">
                             <ul>
                                 <li>
-                                    <a href="#" title="Facebook">
+                                    <a href="" title="Facebook">
                                         <span class="mdi mdi-facebook-box"></span>
                                     </a>
-                                    <a href="#" title="Twitter">
+                                    <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
                                     </a>
-                                    <a href="#" title="Youtube">
+                                    <a href="" title="Youtube">
                                         <span class="mdi mdi-youtube"></span>
                                     </a>
-                                    <a href="#" title="Instagram">
+                                    <a href="" title="Instagram">
                                         <span class="mdi mdi-instagram"></span>
                                     </a>
-                                    <a href="#" title="Google Plus">
+                                    <a href="" title="Google Plus">
                                         <span class="mdi mdi-google-plus"></span>
                                     </a>
                                 </li>
@@ -288,19 +288,19 @@
                         <div class="social">
                             <ul>
                                 <li>
-                                    <a href="#" title="Facebook">
+                                    <a href="" title="Facebook">
                                         <span class="mdi mdi-facebook-box"></span>
                                     </a>
-                                    <a href="#" title="Twitter">
+                                    <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
                                     </a>
-                                    <a href="#" title="Youtube">
+                                    <a href="" title="Youtube">
                                         <span class="mdi mdi-youtube"></span>
                                     </a>
-                                    <a href="#" title="Instagram">
+                                    <a href="" title="Instagram">
                                         <span class="mdi mdi-instagram"></span>
                                     </a>
-                                    <a href="#" title="Google Plus">
+                                    <a href="" title="Google Plus">
                                         <span class="mdi mdi-google-plus"></span>
                                     </a>
                                 </li>
@@ -324,19 +324,19 @@
                         <div class="social">
                             <ul>
                                 <li>
-                                    <a href="#" title="Facebook">
+                                    <a href="" title="Facebook">
                                         <span class="mdi mdi-facebook-box"></span>
                                     </a>
-                                    <a href="#" title="Twitter">
+                                    <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
                                     </a>
-                                    <a href="#" title="Youtube">
+                                    <a href="" title="Youtube">
                                         <span class="mdi mdi-youtube"></span>
                                     </a>
-                                    <a href="#" title="Instagram">
+                                    <a href="" title="Instagram">
                                         <span class="mdi mdi-instagram"></span>
                                     </a>
-                                    <a href="#" title="Google Plus">
+                                    <a href="" title="Google Plus">
                                         <span class="mdi mdi-google-plus"></span>
                                     </a>
                                 </li>
@@ -360,19 +360,19 @@
                         <div class="social">
                             <ul>
                                 <li>
-                                    <a href="#" title="Facebook">
+                                    <a href="" title="Facebook">
                                         <span class="mdi mdi-facebook-box"></span>
                                     </a>
-                                    <a href="#" title="Twitter">
+                                    <a href="" title="Twitter">
                                         <span class="mdi mdi-twitter-box"></span>
                                     </a>
-                                    <a href="#" title="Youtube">
+                                    <a href="" title="Youtube">
                                         <span class="mdi mdi-youtube"></span>
                                     </a>
-                                    <a href="#" title="Instagram">
+                                    <a href="" title="Instagram">
                                         <span class="mdi mdi-instagram"></span>
                                     </a>
-                                    <a href="#" title="Google Plus">
+                                    <a href="" title="Google Plus">
                                         <span class="mdi mdi-google-plus"></span>
                                     </a>
                                 </li>

@@ -20,7 +20,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Smith Handa</a>
+                                    <a href="" class="writer">Smith Handa</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -65,7 +65,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Anderson Eugenia</a>
+                                    <a href="" class="writer">Anderson Eugenia</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -110,7 +110,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Kazantzis John</a>
+                                    <a href="" class="writer">Kazantzis John</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -155,7 +155,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Blair Verona</a>
+                                    <a href="" class="writer">Blair Verona</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -200,7 +200,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Meldrum Jackie</a>
+                                    <a href="" class="writer">Meldrum Jackie</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -245,7 +245,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Burch Desiree</a>
+                                    <a href="" class="writer">Burch Desiree</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -290,7 +290,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Harry Daly</a>
+                                    <a href="" class="writer">Harry Daly</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum ipsum
@@ -335,7 +335,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Andrews Hayman</a>
+                                    <a href="" class="writer">Andrews Hayman</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita harum ipsum
@@ -380,7 +380,7 @@
                                          title="Blog Writer"
                                          class="person-image"
                                     />
-                                    <a href="#" class="writer">Smith Handa</a>
+                                    <a href="" class="writer">Smith Handa</a>
                                 </div>
                                 <p class="blog-description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consectetur
@@ -413,16 +413,16 @@
                 <nav aria-label="Blog Page navigation" class="d-flex justify-content-center">
                     <ul class="pagination">
                         <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
+                            <a class="page-link" href="" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                                 <span class="sr-only">Previous</span>
                             </a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="">1</a></li>
+                        <li class="page-item"><a class="page-link" href="">2</a></li>
+                        <li class="page-item"><a class="page-link" href="">3</a></li>
                         <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
+                            <a class="page-link" href="" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                                 <span class="sr-only">Next</span>
                             </a>
@@ -446,7 +446,7 @@
                             <div class="category-title">Categories</div>
                             <ul class="nav navbar-nav category-list">
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-1"
                                        class="category-item"
                                     >
@@ -455,24 +455,24 @@
                                     </a>
                                     <ul id="submenu-1" class="collapse">
                                         <li>
-                                            <a href="#">
+                                            <a href="">
                                                 <i class="fa fa-angle-double-right"></i>
                                                 Information and communications technology
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#">
+                                            <a href="">
                                                 <i class="fa fa-angle-double-right"></i>
                                                 Agricultural technology
                                             </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Electrical engineering technology</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-2"
                                        class="category-item"
                                     >
@@ -480,19 +480,19 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-2" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Facebook </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Instagram</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Twitter</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-3"
                                        class="category-item"
                                     >
@@ -500,19 +500,19 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-3" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Android </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> PC</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> IOS</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-4"
                                        class="category-item"
                                     >
@@ -520,19 +520,19 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-4" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> E-Commerce</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Trade</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Corporate governance‎ </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#" data-toggle="collapse"
+                                    <a href="" data-toggle="collapse"
                                        data-target="#submenu-5"
                                        class="category-item"
                                     >
@@ -540,13 +540,13 @@
                                         <i class="mdi mdi-chevron-right"></i>
                                     </a>
                                     <ul id="submenu-5" class="collapse">
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Movies </a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Videos</a>
                                         </li>
-                                        <li><a href="#">
+                                        <li><a href="">
                                             <i class="fa fa-angle-double-right"></i> Blog </a>
                                         </li>
                                     </ul>
