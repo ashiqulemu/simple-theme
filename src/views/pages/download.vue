@@ -5,10 +5,7 @@
                    <div class="col-md-12">
                        <div class="download-area">
                            <div class="image-area">
-                               <img
-                                       src="https://freeiconshop.com/wp-content/uploads/edd/download-cloud-flat.png"
-                                       alt="download image"
-                               >
+                               <i class="mdi mdi-cloud-download"></i>
                            </div>
                            <div class="message-area">
                                <h2>Thank you for your request to download!</h2>
