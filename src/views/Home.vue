@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row device-helper">
                     <div class="col-lg-6 col-md-6 col-xs-12">
-                        <div class="left-content " >
+                        <div class="left-content ">
                             <img class="wow fadeInLeftBig"
                                  data-wow-delay=".25s"
                                  src="../assets/images/slider/devices.png" alt="Device Photo">
@@ -17,7 +17,7 @@
                             <h1 class="text-center py-3  wow flipOutX" data-wow-delay="2s" data-wow-duration="2s">
                                 Make your own business!</h1>
 
-                            <div class="button-action wow fadeInUpBig"  data-wow-delay="2s" data-wow-duration="1.5s">
+                            <div class="button-action wow fadeInUpBig" data-wow-delay="2s" data-wow-duration="1.5s">
                                 <button type="button "> Get Your choice!</button>
                                 <button type="button"> Put Your choice!</button>
                             </div>
@@ -32,7 +32,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center wow zoomInDown " data-wow-delay=".3s"   data-wow-duration="0.8s">
+                        <h2 class="section-title text-center wow zoomInDown "
+                            data-wow-delay=".3s"
+                            data-wow-duration="0.8s">
                             about us
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -46,7 +48,9 @@
                                 ectetur adipisicing elitcon sectetur adipisicing elit consectetur adipisicing elit
                                 Accusantium </p>
 
-                            <div class="items wow fadeInLeft" data-wow-delay="2s" data-wow-duration="2s">
+                            <div class="items wow fadeInLeft"
+                                 data-wow-delay="1s"
+                                 data-wow-duration="2s">
                                 <div class="box">
                                     <div class="icon">
                                         <span class="mdi mdi-alarm-light-outline"></span>
@@ -62,7 +66,9 @@
 
                                 </div>
                             </div>
-                            <div class="items">
+                            <div class="items wow fadeInLeft"
+                                 data-wow-delay="2s"
+                                 data-wow-duration="2s">
                                 <div class="box">
                                     <div class="icon">
                                         <span class="mdi mdi-palm-tree"></span>
@@ -79,7 +85,9 @@
 
                                 </div>
                             </div>
-                            <div class="items">
+                            <div class="items wow fadeInLeft"
+                                 data-wow-delay="3s"
+                                 data-wow-duration="2s">
                                 <div class="box">
                                     <div class="icon">
                                         <span class="mdi mdi-satellite-uplink"></span>
@@ -114,7 +122,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"   data-wow-duration="0.8s">
+                        <h2 class="section-title text-center wow zoomInDown"
+                            data-wow-delay=".3s"
+                            data-wow-duration="0.8s">
                             Our featuers
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -123,7 +133,8 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-4">
-                        <div class="features-intro">
+                        <div class="features-intro wow fadeInLeft"
+                                 data-wow-duration="2s">
                             <h3>
                                 <span class="mdi mdi-paper-cut-vertical"></span>
                                 find your best features in <span>micro</span> theme
@@ -138,7 +149,9 @@
                     </div>
                     <div class="col-md-8">
                         <div class="features-boxes">
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="1s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-account-outline text-primary"></span> User Friendly</h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi aspernatur
@@ -146,28 +159,36 @@
                                     nulla odio odit possimus rem reprehenderit, sit unde!
                                 </p>
                             </div>
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="1.2s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-update text-primary"></span> Quick Update</h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque distinctio
                                     doloribus esse, facilis ipsa ipsam libero obcaecati odit rem veritatis.
                                 </p>
                             </div>
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="1.4s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-diamond text-primary"></span> High Performance</h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores,
                                     assumenda aut.
                                 </p>
                             </div>
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="1.6s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-leaf text-primary"></span> 100% Secure</h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam et in itaque
                                     minima molestiae nesciunt porro veritatis voluptatibus. Libero, veritatis.
                                 </p>
                             </div>
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="1.8s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-more text-primary"></span> Unlimited Features</h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis magni
@@ -175,7 +196,9 @@
                                     nostrum praesentium quidem quod ratione repellendus sint tenetur, voluptas.
                                 </p>
                             </div>
-                            <div class="box">
+                            <div class="box wow fadeIn"
+                                 data-wow-delay="2s"
+                                 data-wow-duration="2s">
                                 <h5><span class="mdi mdi-headset text-primary"></span> 24 X 7 Support </h5>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis eveniet magni
@@ -193,7 +216,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 section-shadow">
-                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"   data-wow-duration="0.8s">
+                        <h2 class="section-title text-center wow zoomInDown" data-wow-delay=".3s"
+                            data-wow-duration="0.8s">
                             Our Team
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur
@@ -318,7 +342,7 @@
                             penal Lomix
                         </div>
                         <div class="designation">
-                           Web Designer
+                            Web Designer
                         </div>
                         <div class="details">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolores
@@ -426,7 +450,8 @@
             <div class="container ">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary wow zoomInDown"  data-wow-delay=".3s"   data-wow-duration="0.8s">
+                        <h2 class="section-title text-center text-primary wow zoomInDown" data-wow-delay=".3s"
+                            data-wow-duration="0.8s">
                             Price plan
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -434,7 +459,8 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-4">
-                        <div class="price-box">
+                        <div class="price-box wow fadeInLeft"
+                                 data-wow-duration="2s">
                             <div class="topper">
                                 <h4>basic plan </h4>
                                 <div class="month">
@@ -500,7 +526,8 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="price-box">
+                        <div class="price-box wow fadeInRight"
+                                 data-wow-duration="2s">
                             <div class="topper">
                                 <h4>ultimate plan </h4>
                                 <div class="month">
@@ -537,12 +564,14 @@
         </section>
 
 
-        <section class="contact-us home-contact" >
+        <section class="contact-us home-contact">
 
             <div class="container">
                 <div class="row section-shadow">
                     <div class="col-md-12 ">
-                        <h2 class="section-title text-center text-primary wow zoomInDown"  data-wow-delay=".3s"   data-wow-duration="0.8s">
+                        <h2 class="section-title text-center text-primary wow zoomInDown"
+                            data-wow-delay=".3s"
+                            data-wow-duration="0.8s">
                             Contact us
                         </h2>
                         <p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit Accusantium </p>
@@ -551,7 +580,8 @@
 
                 <div class="row">
                     <div class="col-md-6 ">
-                        <div class="map">
+                        <div class="map wow fadeInLeft"
+                                 data-wow-duration="2s">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.4111736868135!2d89.54895711484657!3d22.824272429437933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900834703c71%3A0x8f9dc823c122d0d!2sNew%20Market%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1580622374990!5m2!1sen!2sbd"
                                     width="100%"
                                     height="350"
@@ -564,7 +594,8 @@
                     </div>
 
                     <div class="col-md-6 pt-4 py-4">
-                        <div class=" mail-contact">
+                        <div class=" mail-contact wow fadeInRight"
+                                 data-wow-duration="2s">
                             <h5>We are here ! send us a message</h5>
                             <hr>
                             <form action="" class="form pt-4">
@@ -631,8 +662,8 @@
             reInit() {
                 this.$nextTick(() => {
                     this.$refs.slick ? this.$refs.slick.reSlick() : '';
-                    document.querySelector(".slick-next")?document.querySelector(".slick-next").innerHTML = "<span class='mdi mdi-chevron-right'></span>":'';
-                    document.querySelector(".slick-next")?document.querySelector(".slick-prev").innerHTML = "<span class='mdi mdi-chevron-left'></span>":'';
+                    document.querySelector(".slick-next") ? document.querySelector(".slick-next").innerHTML = "<span class='mdi mdi-chevron-right'></span>" : '';
+                    document.querySelector(".slick-next") ? document.querySelector(".slick-prev").innerHTML = "<span class='mdi mdi-chevron-left'></span>" : '';
                 });
             },
 
