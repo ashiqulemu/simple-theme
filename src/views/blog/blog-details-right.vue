@@ -3,7 +3,10 @@
        <div class="container">
         <div class="blog-details row">
             <div class="col-md-9 blog-content">
-                    <div class="img-box">
+                    <div class="img-box wow fadeIn"
+                         data-wow-delay=".2s"
+                         data-wow-duration="2s"
+                    >
                         <img src="../../assets/images/blog/blog1.png"
                              alt="Blog Details"
                              class="img-fluid"
@@ -17,7 +20,7 @@
                                  title="Blog Writer"
                                  class="person-image"
                             />
-                            <a href="#" class="writer">Smith Handa</a>
+                            <a href="" class="writer">Smith Handa</a>
                             <div class="date"><i class="mdi mdi-calendar pr-1"></i>17 Jun , 2020</div>
                         </div>
                         <div class="last">
@@ -33,10 +36,16 @@
                             />
                         </div>
                     </div>
-                    <div class="title">
+                    <div class="title wow fadeIn"
+                         data-wow-delay=".4s"
+                         data-wow-duration="2s"
+                    >
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </div>
-                    <div class="description py-3">
+                    <div class="description py-3 wow fadeIn"
+                         data-wow-delay=".6s"
+                         data-wow-duration="2s"
+                    >
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque aut dignissimos distinctio,
                         error expedita, itaque necessitatibus nostrum recusandae repudiandae sit totam, vel veritatis.
                         Culpa cum deleniti est laboriosam, maxime minus natus odio perspiciatis provident qui quidem quo
@@ -104,8 +113,11 @@
                         <div class="sub-title text-center">
                             All comments (37)
                         </div>
-                        <div class="comment-item ">
-                            <div class="comment-writer"><a href="#" class="writer">Simoes Salome</a></div>
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".2s"
+                         data-wow-duration="2s"
+                    >
+                            <div class="comment-writer"><a href="" class="writer">Simoes Salome</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt
@@ -114,8 +126,11 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">French Tamzyn</a></div>
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".4s"
+                         data-wow-duration="2s"
+                    >
+                            <div class="comment-writer"><a href="" class="writer">French Tamzyn</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A est exercitationem saepe
                                 similique! Accusantium atque dignissimos eum facilis, fugiat id illo maiores minus
@@ -123,8 +138,11 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Ithya Nguta</a></div>
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".6s"
+                         data-wow-duration="2s"
+                    >
+                            <div class="comment-writer"><a href="" class="writer">Ithya Nguta</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta dolorem eius
                                 molestiae molestias nam placeat quam quod rerum tempora. Aliquid fugit labore molestiae
@@ -134,16 +152,22 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Stanbrige Peter</a></div>
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".8s"
+                         data-wow-duration="2s"
+                    >
+                            <div class="comment-writer"><a href="" class="writer">Stanbrige Peter</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi est ipsa itaque
                                 laudantium maiores pariatur quod recusandae reprehenderit voluptas.
                             </p>
 
                         </div>
-                        <div class="comment-item">
-                            <div class="comment-writer"><a href="#" class="writer">Stone John</a></div>
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay="1s"
+                         data-wow-duration="2s"
+                    >
+                            <div class="comment-writer"><a href="" class="writer">Stone John</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, beatae culpa
                                 dicta dignissimos fugit hic in iste nam odio odit placeat, qui quis ratione repudiandae
@@ -156,16 +180,16 @@
                     <nav aria-label="Blog Page navigation" class="d-flex justify-content-center">
                         <ul class="pagination">
                             <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
+                                <a class="page-link" href="" aria-label="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                     <span class="sr-only">Previous</span>
                                 </a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="">1</a></li>
+                            <li class="page-item"><a class="page-link" href="">2</a></li>
+                            <li class="page-item"><a class="page-link" href="">3</a></li>
                             <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
+                                <a class="page-link" href="" aria-label="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                     <span class="sr-only">Next</span>
                                 </a>

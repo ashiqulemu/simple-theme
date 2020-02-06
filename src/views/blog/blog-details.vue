@@ -3,7 +3,10 @@
         <div class="container">
             <div class="blog-details row">
                 <div class="col-md-12 blog-content">
-                    <div class="img-box">
+                    <div class="img-box wow fadeIn"
+                         data-wow-delay=".2s"
+                         data-wow-duration="2s"
+                    >
                         <img src="../../assets/images/blog/blog1.png"
                              alt="Blog Details"
                              class="img-fluid"
@@ -33,10 +36,16 @@
                             />
                         </div>
                     </div>
-                    <div class="title">
+                    <div class="title wow fadeIn"
+                         data-wow-delay=".4s"
+                         data-wow-duration="2s"
+                    >
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </div>
-                    <div class="description py-3">
+                    <div class="description py-3 wow fadeIn"
+                         data-wow-delay=".6s"
+                         data-wow-duration="2s"
+                    >
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque aut dignissimos distinctio,
                         error expedita, itaque necessitatibus nostrum recusandae repudiandae sit totam, vel veritatis.
                         Culpa cum deleniti est laboriosam, maxime minus natus odio perspiciatis provident qui quidem quo
@@ -104,7 +113,10 @@
                         <div class="sub-title text-center">
                             All comments (37)
                         </div>
-                        <div class="comment-item ">
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".2s"
+                         data-wow-duration="2s"
+                    >
                             <div class="comment-writer"><a href="" class="writer">Simoes Salome</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -114,7 +126,10 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".4s"
+                         data-wow-duration="2s"
+                    >
                             <div class="comment-writer"><a href="" class="writer">French Tamzyn</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A est exercitationem saepe
@@ -123,7 +138,10 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".6s"
+                         data-wow-duration="2s"
+                    >
                             <div class="comment-writer"><a href="" class="writer">Ithya Nguta</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta dolorem eius
@@ -134,7 +152,10 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay=".8s"
+                         data-wow-duration="2s"
+                    >
                             <div class="comment-writer"><a href="" class="writer">Stanbrige Peter</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi est ipsa itaque
@@ -142,7 +163,10 @@
                             </p>
 
                         </div>
-                        <div class="comment-item">
+                        <div class="comment-item wow fadeIn"
+                         data-wow-delay="1s"
+                         data-wow-duration="2s"
+                    >
                             <div class="comment-writer"><a href="" class="writer">Stone John</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, beatae culpa
