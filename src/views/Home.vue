@@ -2,10 +2,10 @@
     <div>
         <section class="home-slider" id="home">
             <div class="container">
-                <div class="row">
+                <div class="row device-helper">
                     <div class="col-lg-6 col-md-6 col-xs-12">
                         <div class="left-content">
-
+                            <img src="../assets/images/slider/devices.png" alt="Device Photo">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-xs-12">
