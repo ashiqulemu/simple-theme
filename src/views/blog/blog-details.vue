@@ -1,6 +1,11 @@
 <template>
     <section class="blg-details">
         <div class="container">
+            <ol class="breadcrumb my-breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Current</a></li>
+            </ol>
             <div class="blog-details row">
                 <div class="col-md-12 blog-content">
                     <div class="img-box wow fadeIn"
@@ -114,9 +119,9 @@
                             All comments (37)
                         </div>
                         <div class="comment-item wow fadeIn"
-                         data-wow-delay=".2s"
-                         data-wow-duration="2s"
-                    >
+                             data-wow-delay=".2s"
+                             data-wow-duration="2s"
+                        >
                             <div class="comment-writer"><a href="" class="writer">Simoes Salome</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -127,9 +132,9 @@
 
                         </div>
                         <div class="comment-item wow fadeIn"
-                         data-wow-delay=".4s"
-                         data-wow-duration="2s"
-                    >
+                             data-wow-delay=".4s"
+                             data-wow-duration="2s"
+                        >
                             <div class="comment-writer"><a href="" class="writer">French Tamzyn</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A est exercitationem saepe
@@ -139,9 +144,9 @@
 
                         </div>
                         <div class="comment-item wow fadeIn"
-                         data-wow-delay=".6s"
-                         data-wow-duration="2s"
-                    >
+                             data-wow-delay=".6s"
+                             data-wow-duration="2s"
+                        >
                             <div class="comment-writer"><a href="" class="writer">Ithya Nguta</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta dolorem eius
@@ -153,9 +158,9 @@
 
                         </div>
                         <div class="comment-item wow fadeIn"
-                         data-wow-delay=".8s"
-                         data-wow-duration="2s"
-                    >
+                             data-wow-delay=".8s"
+                             data-wow-duration="2s"
+                        >
                             <div class="comment-writer"><a href="" class="writer">Stanbrige Peter</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eligendi est ipsa itaque
@@ -164,9 +169,9 @@
 
                         </div>
                         <div class="comment-item wow fadeIn"
-                         data-wow-delay="1s"
-                         data-wow-duration="2s"
-                    >
+                             data-wow-delay="1s"
+                             data-wow-duration="2s"
+                        >
                             <div class="comment-writer"><a href="" class="writer">Stone John</a></div>
                             <p class="comment-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi, beatae culpa
