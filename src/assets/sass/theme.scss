@@ -759,6 +759,10 @@
   margin-bottom: 450px;
   height: 100vh;
   z-index: 2;
+  @media (max-width: 768px) {
+    height: auto;
+    padding-bottom: 20px;
+  }
 
   .inner {
     padding-top: 100px;
@@ -1389,41 +1393,47 @@
 .sidebar-check {
   position: absolute;
 }
-download-section{
+
+.download-section {
   .container {
     padding-top: 140px;
   }
+  @media (max-width: 425px) {
+        height: auto;
+    padding-bottom: 20px;
+      }
+
   .download-area {
-  margin: auto;
-  text-align: center;
-  padding-top: 140px;
-  font-style: italic;
-  padding-left: 25px;
-  padding-right: 25px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
 
 
-  .image-area {
-    .mdi {
-      font-size: 8rem;
-      color: #283a70;
+    .image-area {
+      .mdi {
+        font-size: 80px;
+        color: #283a70;
+        @media (max-width: 425px) {
+          font-size: 50px;
+        }
+      }
+    }
+
+    .message-area {
+      p {
+        font-size: 30px;
+      }
+    }
+
+    .request-download-area {
+      font-size: 20px;
+      font-style: normal;
+
+      a {
+        color: $nav-link;
+      }
     }
   }
-
-  .message-area {
-    p {
-      font-size: 30px;
-    }
-  }
-
-  .request-download-area {
-    font-size: 20px;
-    font-style: normal;
-
-    a {
-      color: $nav-link;
-    }
-  }
-}
 }
 
 
@@ -1434,8 +1444,9 @@ download-section{
   margin-bottom: 460px;
   z-index: 2;
   position: relative;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     height: auto;
+    padding-bottom: 20px;
   }
 
   .container {
@@ -1541,9 +1552,9 @@ download-section{
         margin: 0 20px;
         color: $bg-primary;
         @media (max-width: 425px) {
-        margin: 0!important;
-        padding: 0!important;
-      }
+          margin: 0 !important;
+          padding: 0 !important;
+        }
 
         .newsletter-title {
           text-align: center;
@@ -2030,6 +2041,10 @@ download-section{
     color: $secondary !important;
     font-weight: 500;
     align-self: center;
+    a{
+      color: $secondary !important;
+      text-decoration: none;
+    }
     @media (max-width: 425px) {
       font-size: 12px;
     }
