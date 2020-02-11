@@ -1,6 +1,10 @@
 <template>
    <section class="comming-soon">
        <div class="container">
+           <ol class="breadcrumb my-breadcrumb">
+                <li>Other Page</li>
+                <li>Coming Soon</li>
+            </ol>
            <div class="row pointed-area">
                <div class="col-lg-6  col-xs-12">
                    <div class="coming-soon-area">

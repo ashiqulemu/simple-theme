@@ -2,9 +2,8 @@
     <section class="blg-details">
         <div class="container">
             <ol class="breadcrumb my-breadcrumb">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Library</a></li>
-                <li><a href="#">Current</a></li>
+                <li>Blog</li>
+                <li>Blog Details</li>
             </ol>
             <div class="blog-details row">
                 <div class="col-md-12 blog-content">

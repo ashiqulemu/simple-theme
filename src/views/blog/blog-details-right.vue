@@ -1,6 +1,10 @@
 <template>
     <section class="blg-details">
        <div class="container">
+           <ol class="breadcrumb my-breadcrumb">
+                <li>Blog</li>
+                <li>Blog Details ( Right Sidebar )</li>
+            </ol>
         <div class="blog-details row">
             <div class="col-md-9 blog-content">
                     <div class="img-box wow fadeIn"

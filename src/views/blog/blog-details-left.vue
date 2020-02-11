@@ -1,6 +1,10 @@
 <template>
     <section class="blg-details">
         <div class="container">
+            <ol class="breadcrumb my-breadcrumb">
+                <li>Blog</li>
+                <li>Blog Details ( Left Sidebar )</li>
+            </ol>
             <div class="blog-details row">
                 <div class="blog-sidebar col-md-3">
                     <div class="input-group search-box">

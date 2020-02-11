@@ -1,6 +1,10 @@
 <template>
        <section class="download-section">
            <div class="container">
+               <ol class="breadcrumb my-breadcrumb">
+                <li>Other Page</li>
+                <li>Download</li>
+            </ol>
                <div class="row">
                    <div class="col-md-12">
                        <div class="download-area">
