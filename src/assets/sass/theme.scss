@@ -37,6 +37,9 @@
     &:hover {
       color: $nav-link;
     }
+    &:active {
+      color: $bg-primary;
+    }
   }
 }
 
