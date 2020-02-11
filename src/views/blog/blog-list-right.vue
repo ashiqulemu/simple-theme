@@ -2,7 +2,7 @@
     <section class="blg-details">
     <div class="container">
         <ol class="breadcrumb my-breadcrumb">
-                <li>Blog</li>
+                <li><router-link :to="{name:'blogList'}">Blog</router-link></li>
                 <li>Blog List ( Right Sidebar )</li>
             </ol>
         <div class=" blog-box row">

@@ -2,7 +2,12 @@
     <div>
         <div class="review-area">
             <div class="container">
-                <div class="row">
+
+                <ol class="breadcrumb my-breadcrumb">
+                    <li>Other Page</li>
+                    <li>Review</li>
+                </ol>
+                <div class="row mt-4">
                     <div class="col-md-4">
                         <div class="review-container wow fadeIn"
                              data-wow-delay=".2s"

@@ -2,6 +2,10 @@
     <div class="auth-form">
          <div class="container d-flex justify-content-center">
         <div class="container-box">
+            <ol class="breadcrumb my-breadcrumb">
+                    <li>Other Page</li>
+                    <li>Forgot Password</li>
+                </ol>
             <div class="md-title mt-5">
                 Reset Your Password
             </div>

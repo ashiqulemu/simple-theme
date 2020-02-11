@@ -1,5 +1,5 @@
 <template>
-   <section class="comming-soon">
+   <section class="coming-soon-section">
        <div class="container">
            <ol class="breadcrumb my-breadcrumb">
                 <li>Other Page</li>
